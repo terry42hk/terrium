@@ -52,12 +52,23 @@ These aren't theoretical. Each one exists because I've hit the failure mode it p
 **The failure mode:** You send an Explore agent to research something, then tell a General-purpose agent "based on the research, implement it." The implementation agent gets a wall of text, misses the key detail on line 47, and builds the wrong thing.
 
 **Bad:**
-> "Based on your findings, implement the fix."
+```
+"Based on your findings, implement the fix."
+```
 
 **Good:**
-> "The bug is in `~/.claude/skills/loader.ts` at line 142. The `importSkill()` function doesn't handle the case where the skill directory is a symlink. Change the `fs.existsSync()` check to `fs.lstatSync()` followed by `fs.realpathSync()` if it's a symlink."
+```
+"The bug is in ~/.claude/skills/loader.ts at line 142.
+The importSkill() function doesn't handle the case where the skill
+directory is a symlink. Change the fs.existsSync() check to
+fs.lstatSync() followed by fs.realpathSync() if it's a symlink."
+```
 
-**Why it matters:** Subagent output is often 80% noise, 20% signal. File listings, search results, dead ends — most of it is exploration artifacts. The parent's job is to extract the specific file paths, line numbers, and decisions, then write precise instructions.
+**Why it matters:** Subagent output is often 80% noise, 20% signal. The parent's job is to distill that into precise instructions:
+
+- **Extract** the specific file paths, line numbers, and decisions
+- **Discard** exploration artifacts — file listings, search results, dead ends
+- **Write** actionable instructions with enough detail that the next agent can't misinterpret
 
 You're delegating **work**, not **understanding**. The parent must always understand what's happening.
 

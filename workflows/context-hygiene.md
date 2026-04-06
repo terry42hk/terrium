@@ -72,9 +72,11 @@ Route exploration to Explore agents instead of reading files directly in your ma
 
 **Rule of thumb:** If a task requires reading 5+ files, delegate to an Explore subagent.
 
-**Why:** Those 5 files might consume 3,000-5,000 tokens each in your main context. That's 15,000-25,000 tokens of raw file content. An Explore agent reads all of them, synthesizes the findings, and returns maybe 200-500 tokens of actionable summary.
+**Why the math is stark:**
 
-The math is stark: 25,000 tokens of noise vs. 500 tokens of signal. Your main context stays clean, and the information quality is actually higher because it's been synthesized.
+- **Direct reads:** 5 files x 3,000-5,000 tokens each = **15,000-25,000 tokens** of raw content in your main context
+- **Explore agent:** reads all 5, synthesizes findings, returns **200-500 tokens** of actionable summary
+- Your main context stays clean, and the information quality is actually **higher** because it's been synthesized
 
 ---
 
@@ -240,13 +242,15 @@ This is the one piece of context that's truly durable. Use it.
 
 ## The Mental Model
 
-Think of your context window as a whiteboard in a meeting room.
+Think of your context window as a whiteboard in a meeting room:
 
-- **Fresh session:** Clean whiteboard. Maximum clarity.
-- **Mid-session:** Whiteboard has useful diagrams and notes. Productive.
-- **Polluted session:** Whiteboard is covered edge to edge. Can't find what matters.
-- **`/compact`:** Someone photographs the whiteboard and erases it, pinning the photo to the wall. Most information preserved, but harder to reference.
-- **`/clear`:** Erase everything. Start with a clean whiteboard. Only the room's permanent signs (CLAUDE.md) remain.
+| State | Whiteboard Analogy |
+|-------|-------------------|
+| **Fresh session** | Clean whiteboard. Maximum clarity. |
+| **Mid-session** | Useful diagrams and notes. Productive. |
+| **Polluted session** | Covered edge to edge. Can't find what matters. |
+| **`/compact`** | Photograph it, erase it, pin the photo to the wall. |
+| **`/clear`** | Erase everything. Only the room's permanent signs (CLAUDE.md) remain. |
 
 The goal isn't to never use the whiteboard — it's to erase it before it becomes useless.
 

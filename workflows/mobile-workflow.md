@@ -6,6 +6,8 @@ The setup: Claude Code runs on your machine. A Telegram bot acts as a remote int
 
 I've been running this setup daily for months. Here's what actually works, what doesn't, and how to set it up.
 
+---
+
 ## What Works Well
 
 ### Quick Codebase Questions
@@ -33,6 +35,8 @@ For multi-step tasks, Claude sends progress updates as it goes. You see "Step 1/
 
 "Add a new entry to my reading list" or "Update the project status in the tracking doc" — small, well-defined edits that don't need visual review of diffs.
 
+---
+
 ## What Doesn't Work Well
 
 ### Interactive Terminal Approvals
@@ -55,9 +59,11 @@ A 200-line diff is painful to read on a phone screen. Claude can summarize diffs
 
 UI changes, chart rendering, layout adjustments — anything where you need to see the result. Claude can take screenshots via browser automation, but reviewing them on a phone screen is suboptimal at best.
 
+---
+
 ## Key Rules for Mobile Mode
 
-These rules live in my CLAUDE.md and activate when messages arrive through the Telegram channel:
+These five rules live in my CLAUDE.md. They activate automatically when messages arrive through Telegram.
 
 ### All responses go through the reply tool
 
@@ -65,14 +71,21 @@ Claude's terminal output is invisible to you remotely. If Claude prints somethin
 
 ### Be concise
 
-Mobile screens are small. Scrolling through paragraphs on a phone is tedious. The rule: lead with the result, use bullets over paragraphs, skip the preamble.
+Mobile screens are small. Scrolling through paragraphs on a phone is tedious. The rule:
 
-**Bad:** "I've completed the task you requested. After analyzing the codebase, I found that the configuration file needed updating. Here's what I changed..."
+- **Lead with the result**, not the process
+- **Use bullets over paragraphs**
+- **Skip the preamble** -- no "I've completed the task you requested"
+
+**Bad:**
+
+> "I've completed the task you requested. After analyzing the codebase, I found that the configuration file needed updating. Here's what I changed..."
 
 **Good:**
-- Updated `config.ts` with new API endpoint
-- Added retry logic (3 attempts, exponential backoff)
-- Tests pass
+
+> - Updated `config.ts` with new API endpoint
+> - Added retry logic (3 attempts, exponential backoff)
+> - Tests pass
 
 ### Confirm before large changes
 
@@ -87,6 +100,8 @@ If a task takes more than a minute, Claude sends brief progress messages: "Start
 ### Alert immediately if desktop-only approval is needed
 
 The worst mobile experience is silence. If Claude hits a permission wall or needs something it can't do remotely, it should tell you right away — not wait and hope you'll check your terminal.
+
+---
 
 ## Setup Overview
 
@@ -135,6 +150,8 @@ When messages arrive from Telegram:
 
 Send a simple message from your phone: "What directory are you in?" Claude should reply with the current working directory. If it works, you're set.
 
+---
+
 ## Tips From Daily Use
 
 ### Pair with a PostCompact hook
@@ -160,6 +177,8 @@ I maintain a skill specifically for tasks I commonly trigger from mobile: quick 
 ### Don't fight the medium
 
 If you catch yourself typing a third paragraph on your phone, stop. That's a desktop task. Send yourself a quick note ("TODO: refactor the auth module, the token refresh logic is wrong") and handle it when you're at your computer. Mobile is for quick interactions, not deep work.
+
+---
 
 ## Architecture Diagram
 

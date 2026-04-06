@@ -4,6 +4,8 @@ Hooks sit between Permission (hardest control) and CLAUDE.md (soft, advisory) in
 
 Use hooks for anything that must always happen. If you find yourself writing a CLAUDE.md rule that says "always do X after writing a file" — that's a hook, not a rule. Rules are suggestions. Hooks are guarantees.
 
+---
+
 ## How Hooks Communicate
 
 Hooks are shell scripts configured in `settings.json`. They communicate through three channels:
@@ -16,6 +18,8 @@ Hooks are shell scripts configured in `settings.json`. They communicate through 
 | **Exit code 2** | Harness (block the action) | Preventing dangerous operations |
 
 This is a powerful design. stdout lets you inject context into Claude's awareness without Claude needing to "remember" to check something. stderr lets you debug without polluting Claude's context. Exit code 2 lets you hard-block actions that should never happen.
+
+---
 
 ## Hook Events
 
@@ -31,6 +35,8 @@ Hooks can fire at different points in Claude Code's lifecycle:
 | **SubagentStop** | Subagent completes | Validate subagent output |
 
 You can also filter hooks by tool name. A PostToolUse hook with `"tool": "Write"` only fires after file writes, not after every tool call.
+
+---
 
 ## Pattern 1: Auto-Inject Metadata (UserPromptSubmit)
 
@@ -91,6 +97,8 @@ echo "Last commit: ${LAST_COMMIT}"
 
 Keep it fast. This runs on every prompt. If it takes more than a second, you'll feel the delay.
 
+---
+
 ## Pattern 2: Post-Write Validation (PostToolUse)
 
 Claude sometimes writes files that are structurally correct but miss project conventions. Missing frontmatter, wrong file encoding, incorrect line endings, missing required fields. A post-write hook catches these immediately — before you discover the problem hours later.
@@ -116,9 +124,12 @@ Claude sometimes writes files that are structurally correct but miss project con
 # ~/.claude/hooks/validate-write.sh
 # Validate that written files meet project conventions
 
+# The harness sets this env var to the path of the file Claude just wrote
 FILE="$TOOL_INPUT_FILE_PATH"
 
-# Check: Markdown files in notes/ must have YAML frontmatter
+# --- Check 1: Frontmatter enforcement ---
+# Markdown files in notes/ must start with YAML frontmatter ("---")
+# Without this, static site generators and Obsidian plugins break silently
 if [[ "$FILE" == *"notes/"* && "$FILE" == *.md ]]; then
   FIRST_LINE=$(head -1 "$FILE")
   if [[ "$FIRST_LINE" != "---" ]]; then
@@ -127,7 +138,8 @@ if [[ "$FILE" == *"notes/"* && "$FILE" == *.md ]]; then
   fi
 fi
 
-# Check: Shell scripts must be executable
+# --- Check 2: Executable bit ---
+# Shell scripts must be executable, or they fail on first run
 if [[ "$FILE" == *.sh ]]; then
   if [[ ! -x "$FILE" ]]; then
     chmod +x "$FILE"
@@ -135,7 +147,9 @@ if [[ "$FILE" == *.sh ]]; then
   fi
 fi
 
-# Check: No hardcoded credentials (basic pattern match)
+# --- Check 3: Credential leak detection ---
+# Basic regex for common credential patterns (won't catch everything,
+# but catches the obvious api_key="sk-..." cases)
 if grep -qE '(api_key|token|secret|password)\s*[:=]\s*["\x27][A-Za-z0-9]' "$FILE" 2>/dev/null; then
   echo "WARNING: Possible hardcoded credential detected in $FILE"
   echo "Use environment variables instead of inline secrets"
@@ -171,6 +185,8 @@ if [[ "$FILE" == *.tsx && "$FILE" == *"components/"* ]]; then
   fi
 fi
 ```
+
+---
 
 ## Pattern 3: Post-Compact Context Recovery (PostCompact)
 
@@ -255,17 +271,18 @@ Bad recovery context (~2000 tokens):
 - Conversation history summary
 - Every decision and alternative considered
 
+---
+
 ## When NOT to Use Hooks
 
 Hooks are deterministic. That's their strength and their limitation. Don't use them for:
 
-**Logic that requires judgment.** "Only lint if the file is important" — what's "important"? That's a judgment call. Put it in CLAUDE.md where Claude can reason about it. Hooks should have clear, mechanical criteria.
+- **Logic that requires judgment** -- "Only lint if the file is important." What's "important"? That's a judgment call. Put it in CLAUDE.md where Claude can reason about it. Hooks should have clear, mechanical criteria.
+- **Complex multi-step workflows** -- If your hook needs to read 5 files, make an API call, and decide between 3 approaches, that's a skill, not a hook. Hooks should be fast, simple, and reliable. A hook that takes 10 seconds or occasionally fails defeats its purpose.
+- **One-time actions** -- "For this specific task, check X before writing." Just say it in conversation. Hooks are for things that should always happen, not things that should happen once.
+- **Debugging hooks of other hooks** -- If you find yourself writing a PostToolUse hook to validate that your PreToolUse hook worked correctly, step back. Simplify the original hook.
 
-**Complex multi-step workflows.** If your hook needs to read 5 files, make an API call, and decide between 3 approaches — that's a skill, not a hook. Hooks should be fast, simple, and reliable. A hook that takes 10 seconds or occasionally fails defeats its purpose.
-
-**One-time actions.** "For this specific task, check X before writing." Just say it in conversation. Hooks are for things that should always happen, not things that should happen once.
-
-**Debugging hooks of other hooks.** If you find yourself writing a PostToolUse hook to validate that your PreToolUse hook worked correctly, step back. Simplify the original hook.
+---
 
 ## Configuration Reference
 
@@ -285,11 +302,25 @@ Hooks live in your `settings.json`:
 }
 ```
 
-- `command`: Shell command or script path. Receives tool context via environment variables.
-- `tool`: (Optional) Filter to specific tools. Only applies to PreToolUse and PostToolUse.
-- `timeout`: (Optional) Kill the hook if it takes longer than this (milliseconds). Default varies by event.
+- **`command`** -- Shell command or script path. Receives tool context via environment variables.
+- **`tool`** -- (Optional) Filter to specific tools. Only applies to PreToolUse and PostToolUse.
+- **`timeout`** -- (Optional) Kill the hook if it takes longer than this (milliseconds). Default varies by event.
 
-Environment variables available to hooks depend on the event. PostToolUse hooks get `$TOOL_INPUT_FILE_PATH`, `$TOOL_OUTPUT`, and others. Check the Claude Code documentation for the full list per event.
+### Environment Variables by Event
+
+The harness passes context to your hook scripts via environment variables. The most commonly used ones:
+
+| Event | Variable | Contains |
+|-------|----------|----------|
+| PreToolUse / PostToolUse | `$TOOL_INPUT_FILE_PATH` | Path of the file being read/written |
+| PreToolUse / PostToolUse | `$TOOL_INPUT` | Full JSON of the tool's input parameters |
+| PostToolUse | `$TOOL_OUTPUT` | The tool's output (e.g., file content, command result) |
+| All events | `$SESSION_ID` | Current Claude Code session ID |
+| All events | `$HOOK_EVENT` | The event name (e.g., `PostToolUse`) |
+
+For the complete list, run `claude --help hooks` or see the [Claude Code docs on hooks](https://docs.anthropic.com/en/docs/claude-code/hooks).
+
+---
 
 ## Getting Started
 

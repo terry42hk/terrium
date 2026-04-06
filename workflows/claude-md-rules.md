@@ -4,6 +4,8 @@ CLAUDE.md is loaded every turn, survives context compression, and sits at the pr
 
 These are the 14 rules I run in my global CLAUDE.md. They took months to stabilize — each one exists because I hit a real failure mode without it.
 
+---
+
 ## Pre-Task (Rules 1-4)
 
 These fire before Claude writes a single line. They prevent the most expensive mistake: solving the wrong problem.
@@ -40,6 +42,8 @@ These fire before Claude writes a single line. They prevent the most expensive m
 
 **Example:** A writing skill says to brainstorm before drafting. Claude finds the skill but skips straight to drafting because it's "confident." The output is generic. The brainstorming step exists precisely to prevent generic output.
 
+---
+
 ## Code Changes (Rules 5-7)
 
 These govern the edit-verify loop. They prevent the second most expensive mistake: shipping broken code with confidence.
@@ -68,6 +72,8 @@ These govern the edit-verify loop. They prevent the second most expensive mistak
 
 **Example:** A data migration script runs without errors. Claude says "Migration complete!" But the output file has 0 rows because the query filter was wrong. With this rule, Claude checks: expected ~10,000 rows, got 0 — something is wrong.
 
+---
+
 ## Delivery (Rules 8-9)
 
 These fire right before Claude presents results. They catch the things that slip through the edit-verify loop.
@@ -87,6 +93,8 @@ These fire right before Claude presents results. They catch the things that slip
 **Why this exists:** Claude will happily write `"api_key": "sk-abc123"` into a JSON config file that gets committed to git. This rule is a hard prohibition. Every credential goes through environment variables.
 
 **Example:** You ask Claude to configure a Telegram bot. Without this rule, it writes the bot token directly into `settings.json`. With this rule, it sets up `$TELEGRAM_BOT_TOKEN` in your shell profile and references the variable.
+
+---
 
 ## Subagent Discipline (Rules 10-12)
 
@@ -116,6 +124,8 @@ These govern multi-agent workflows. Subagents are powerful but introduce coordin
 
 **Example:** Agent A is told to update `config.ts` with new settings. Agent B is told to refactor `config.ts` for readability. Agent B finishes last and overwrites Agent A's changes. With non-overlapping scope, this can't happen.
 
+---
+
 ## Context Hygiene (Rules 13-14)
 
 These manage the context window — the finite resource that degrades everything when exhausted.
@@ -136,9 +146,11 @@ These manage the context window — the finite resource that degrades everything
 
 **Example:** You've been working on database migrations. You say "now let's work on the email templates." Claude suggests: "This is a different topic — I'd recommend `/compact` to compress the migration context before we start on email templates."
 
+---
+
 ## How to Write Your Own Rules
 
-The golden test for every rule:
+Start with this golden test for every rule:
 
 > **"If I delete this rule, will Claude make mistakes?"**
 > Yes = keep it. No = delete it.
@@ -151,4 +163,4 @@ The sweet spot is **10-20 rules**. Here's why:
 
 Rules should encode **decisions and prohibitions**, not describe code structure. Claude can read your code — it doesn't need you to explain what `src/utils.ts` does. But it can't infer that you want one-change-one-verify, or that credentials must never be in config files. Those are judgment calls that live in rules.
 
-Start with the failures. Every time Claude does something you have to undo, ask: "Could a rule have prevented this?" If yes, write the rule. If no, it was a one-off — just correct it in conversation and move on.
+**The practical workflow:** Start with the failures. Every time Claude does something you have to undo, ask: "Could a rule have prevented this?" If yes, write the rule. If no, it was a one-off — just correct it in conversation and move on.

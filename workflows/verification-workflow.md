@@ -141,9 +141,11 @@ This is the single most effective quality method I've found. Zero implementation
 
 ### Why Same-Session Review Fails
 
-When you ask Claude to review its own work in the same session, it has access to its entire reasoning chain. It remembers *why* it made each decision. This creates anchoring bias — it's predisposed to confirm that its decisions were correct.
+Same-session review suffers from **anchoring bias**:
 
-It's like asking a chef to taste-test their own food right after cooking it. They're primed to think it's good.
+- Claude remembers *why* it made each decision — so it's predisposed to confirm them
+- It has access to its entire reasoning chain, not just the output
+- It's like asking a chef to taste-test their own food right after cooking — they're primed to think it's good
 
 ### The Fix
 
@@ -186,20 +188,24 @@ The key insight: **"Is this correct?"** invites confirmation. **"Find problems"*
 
 Claude says: *"Done! All tests pass. The refactoring preserves all existing behavior."*
 
-What actually happened: Claude ran the tests in its head, or ran them but didn't check the output carefully, or the tests pass but don't actually cover the changed code.
+What actually happened is one of these:
+
+- Claude ran the tests **in its head** (never actually executed them)
+- Claude ran them but **didn't check the output** carefully
+- The tests pass but **don't cover the changed code**
 
 **Always:**
 1. Ask to see the actual test output (not a summary)
 2. Check that the tests actually test the changed code
 3. Run the tests yourself if the stakes warrant it
 
-Rule 7 in action: **verify output, not exit code.** A passing test suite means nothing if the tests don't cover what you changed. A successful script execution means nothing if the output file is empty.
+This is Rule 7 in practice: **verify output, not exit code.** A passing test suite means nothing if the tests don't cover what you changed. A successful script execution means nothing if the output file is empty.
 
 ---
 
 ## One Change, One Verification
 
-Rule 6 exists because batch changes are the enemy of debugging.
+This is where Rule 6 becomes practical. The rule says "change one thing, verify, then proceed" — here's what that looks like in a real workflow, and why batch changes are the enemy of debugging.
 
 **Bad workflow:**
 1. Refactor the auth module
