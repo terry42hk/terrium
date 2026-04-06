@@ -16,6 +16,14 @@ A structured 12-concept course on mastering Claude Code, from foundational menta
 
 Also includes a [glossary](claude-code-concepts/glossary.md) and [extended discussions](claude-code-concepts/extended/) that go deeper on specific topics.
 
+### [Skills](skills/)
+
+Claude Code skills I've authored and a [curated list](skills/curated.md) of recommended skills from others — with honest commentary on each.
+
+### [Tools](tools/)
+
+Standalone tools, extensions, and repos that complement Claude Code workflows — content extraction, Chinese text processing, skill frameworks, and more.
+
 ## Who this is for
 
 Anyone working with AI coding agents — whether you're just getting started with Claude Code or looking to level up your mental models. The content focuses on *concepts over commands*: understanding the "why" behind effective AI-assisted workflows.
