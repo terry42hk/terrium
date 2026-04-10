@@ -103,3 +103,12 @@ CLAUDE.md is like a set of house rules posted on the fridge -- everyone sees it 
 1. Apply the Golden Test to your own CLAUDE.md (or imagine one): pick any 3 lines and ask "If I delete this, will Claude make mistakes?" What did you find?
 2. You have a 300-line CLAUDE.md and Claude is ignoring some rules. What's likely wrong, and how would you fix it?
 3. Why does "Never force push to main" belong in Permission, not CLAUDE.md, even though CLAUDE.md is loaded every turn?
+
+---
+
+**Deep Dive:** [CLAUDE.md solves memory, not execution](extended/claude-md-solves-memory.md)
+**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/claude-md-rules.md)
+
+---
+
+← Previous: [05 Context Window](05-context-window.md) | [Course Overview](README.md) | Next: [07 Verification](07-verification.md) →

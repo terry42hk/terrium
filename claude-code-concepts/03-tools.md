@@ -138,3 +138,11 @@ Tools are how Claude interacts with your computer -- reading files, editing code
 1. Why does Claude Code have both a `Read` tool and `Bash(cat)`? What's the advantage of dedicated tools over a single general-purpose shell?
 2. When Claude proposes a tool call, what happens between "Claude decides to edit a file" and "the file is actually edited"? List the steps.
 3. Why is Bash described as a "risk amplifier"? Can you think of a Bash command that looks harmless but could cause serious damage?
+
+---
+
+**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+
+---
+
+← Previous: [02 Agent Loop](02-agent-loop.md) | [Course Overview](README.md) | Next: [04 Permission Model](04-permission-model.md) →

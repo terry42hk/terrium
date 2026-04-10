@@ -112,3 +112,12 @@ Claude sounds confident whether it's right or wrong -- you can't tell from the t
 1. Claude just converted 200 CSV rows into JSON for you. Which verification methods from the Six Methods would you use, and in what order?
 2. Why does asking "What's wrong with this?" produce better self-review than asking "Is this correct?" What does this tell you about how LLMs work?
 3. You're about to let Claude batch-rename 50 files. What's the one thing you must do before starting, and why?
+
+---
+
+**Deep Dive:** [Non-Tech Verification -- six practical methods](extended/non-tech-verification.md) | [Writer-Reviewer Separation](extended/writer-reviewer-separation.md)
+**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+
+---
+
+← Previous: [06 CLAUDE.md](06-claude-md.md) | [Course Overview](README.md) | Next: [08 Subagents](08-subagents.md) →

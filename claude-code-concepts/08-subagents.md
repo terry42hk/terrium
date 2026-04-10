@@ -161,3 +161,11 @@ Subagents are like sending assistants to do research in separate rooms. Each one
 1. You just wrote a 2000-word client proposal with Claude. What's the most effective way to catch errors before sending it? Why is a fresh session better than asking "review this" in the same conversation?
 2. When would you use an Explore subagent vs a General-purpose subagent? What's the key difference in capability and cost?
 3. Why is blindly passing subagent output to the user dangerous?
+
+---
+
+**Workflow:** [Subagent Orchestration](../workflows/subagent-orchestration.md)
+
+---
+
+← Previous: [07 Verification](07-verification.md) | [Course Overview](README.md) | Next: [09 Context Management](09-context-management.md) →

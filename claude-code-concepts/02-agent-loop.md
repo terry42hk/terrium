@@ -131,3 +131,12 @@ When you chat with ChatGPT or Claude.ai, you type a message and get one reply --
 1. You ask Claude to "fix the login bug." It reads 8 files, runs 3 commands, and makes 2 edits before replying. Is this one turn or multiple? What's happening behind the scenes?
 2. Why does the harness need to re-govern context after every tool call, not just at the start of the conversation?
 3. A friend says "ChatGPT and Claude Code are basically the same, just different UIs." How would you explain the fundamental architectural difference?
+
+---
+
+**Deep Dive:** [Bot vs Agent -- the difference is thick prework and loops](extended/bot-vs-agent.md)
+**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+
+---
+
+← Previous: [01 Harness vs Model](01-harness-vs-model.md) | [Course Overview](README.md) | Next: [03 Tools](03-tools.md) →

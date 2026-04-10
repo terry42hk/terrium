@@ -4,6 +4,9 @@ Key terms for beginners working through the Claude Code Concepts Course.
 
 ## A
 
+**Advisor Strategy**
+An API-native multi-model pattern where a cheaper executor model (Sonnet or Haiku) drives the agent loop and escalates hard decisions to an advisor model (Opus) within a single API request. The executor decides when to consult -- inverting traditional orchestration where a big model delegates down. Introduced April 2026. [Blog post](https://claude.com/blog/the-advisor-strategy).
+
 **Agent Loop**
 The continuous cycle of governance -> reasoning -> tool execution -> re-governance that makes Claude Code an agent, not a chatbot. Each cycle is one "heartbeat." See [02 Agent Loop](02-agent-loop.md).
 

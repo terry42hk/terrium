@@ -125,3 +125,11 @@ Permissions are your safety net. Even though Claude is smart enough to understan
 1. You're debugging and Claude keeps asking permission for `npm test`. You approve it 30 times. What's the risk, and how would you solve it with allowlists?
 2. Why does the permission system have three results (allow/deny/ask) instead of just two (allow/deny)? What does the existence of "ask" acknowledge?
 3. When would you choose Plan mode over Default mode? Give a concrete scenario.
+
+---
+
+**Workflow:** [Mobile Workflow](../workflows/mobile-workflow.md)
+
+---
+
+← Previous: [03 Tools](03-tools.md) | [Course Overview](README.md) | Next: [05 Context Window](05-context-window.md) →

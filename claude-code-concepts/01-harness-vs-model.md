@@ -99,3 +99,11 @@ Think of Claude Code as having two parts: a **smart employee** (the model) and a
 1. You want Claude to always run `npm test` after editing any `.ts` file. Where does this rule belong -- CLAUDE.md, Hook, or Permission? Why?
 2. A colleague puts "Never delete production databases" in CLAUDE.md. What's the risk, and where should this rule actually live?
 3. Think of a rule in your own workflow that you currently enforce through conversation instructions. Should it be in CLAUDE.md, a Hook, or a Permission instead?
+
+---
+
+**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/claude-md-rules.md)
+
+---
+
+[Course Overview](README.md) | Next: [02 Agent Loop](02-agent-loop.md) →

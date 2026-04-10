@@ -96,3 +96,12 @@ You don't write hooks from scratch -- use examples, ask Claude to generate them,
 1. You want Claude to always check for frontmatter when writing markdown files. Should this be a CLAUDE.md rule, a Hook, or both? What's the tradeoff?
 2. A hook outputs a warning to stdout. Who sees it -- you, Claude, or both? What if it outputs to stderr instead?
 3. Someone asks you to build a "hook pipeline" where Hook A triggers Hook B triggers Hook C. Why doesn't this work, and what should they use instead?
+
+---
+
+**Deep Dive:** [Hook is lifecycle injection, not workflow orchestration](extended/hook-lifecycle-injection.md)
+**Workflow:** [Hooks Patterns](../workflows/hooks-patterns.md)
+
+---
+
+← Previous: [09 Context Management](09-context-management.md) | [Course Overview](README.md) | Next: [11 Skills](11-skills.md) →

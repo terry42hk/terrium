@@ -112,3 +112,12 @@ Think of each conversation with Claude as a work session at a desk. When you swi
 1. You've been debugging for 40 minutes in one session -- CSS fixes, API changes, and a random Slack question via `/btw`. Claude starts giving weird answers. What happened, and what should you do?
 2. What's the difference between `/compact` and `/clear`? When would you choose one over the other?
 3. How would you explain the "Kitchen Sink Anti-Pattern" to a new Claude Code user in one sentence?
+
+---
+
+**Deep Dive:** [System-level Context Management](extended/system-level-context-management.md)
+**Workflow:** [Context Hygiene](../workflows/context-hygiene.md)
+
+---
+
+← Previous: [08 Subagents](08-subagents.md) | [Course Overview](README.md) | Next: [10 Hooks](10-hooks.md) →

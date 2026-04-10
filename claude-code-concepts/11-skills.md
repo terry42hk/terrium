@@ -108,3 +108,11 @@ description: >
 1. You have a research skill that reads 20+ files. Should you add `context: fork` to its frontmatter? What happens if you don't?
 2. What makes a good skill description? Why does "Helps with code" fail while "Use when debugging test failures -- runs failing test, reads stack trace, proposes fix" works?
 3. When would you choose to create a Skill vs a Custom Agent? What's the key difference in capability?
+
+---
+
+**Workflow:** [Mobile Workflow](../workflows/mobile-workflow.md)
+
+---
+
+← Previous: [10 Hooks](10-hooks.md) | [Course Overview](README.md) | Next: [12 MCP](12-mcp.md) →

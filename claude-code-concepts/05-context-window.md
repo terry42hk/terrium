@@ -171,3 +171,12 @@ Imagine Claude's memory as a physical desk. Everything Claude needs to work with
 1. You're at 70% context usage and Claude starts giving inconsistent answers. Should you `/compact` or `/clear`? What factors inform your decision?
 2. Why is "the script ran without errors" not valid verification? Give an example where exit code 0 hides a real problem.
 3. A colleague says "With 1M tokens, context management doesn't matter anymore." How would you respond?
+
+---
+
+**Deep Dive:** [Lost in the Middle (2026) -- largely solved, still matters](extended/lost-in-the-middle.md)
+**Workflow:** [Context Hygiene](../workflows/context-hygiene.md)
+
+---
+
+← Previous: [04 Permission Model](04-permission-model.md) | [Course Overview](README.md) | Next: [06 CLAUDE.md](06-claude-md.md) →
