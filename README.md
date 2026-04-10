@@ -38,11 +38,11 @@ One authored skill ([translation](skills/translation/)) and a [curated list](ski
 
 Tools and extensions that complement Claude Code workflows -- content extraction, Chinese text processing, skill frameworks, and more.
 
-## Recent updates
+## Changelog
 
-- **April 2026** -- Added Advisor Strategy to glossary (Anthropic's new API-native multi-model pattern)
-- **March 2026** -- Added 6 workflow guides, skills section, tools section
-- **March 2026** -- Initial release: 12-concept course + glossary + 7 extended discussions
+- **2026/04/10** -- Added Advisor Strategy to glossary; navigation links and cross-references across all 12 concept files; improved README
+- **2026/03/27** -- Added 6 workflow guides, skills section, tools section
+- **2026/03/25** -- Initial release: 12-concept course + glossary + 7 extended discussions
 
 ## Who this is for
 
