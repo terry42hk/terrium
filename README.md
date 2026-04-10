@@ -24,9 +24,9 @@ A structured course on mastering Claude Code. Start from Tier 1 and work down --
 
 Plus 7 [extended discussions](claude-code-concepts/extended/) that go deeper on specific topics, and a [glossary](claude-code-concepts/glossary.md) with 30+ terms.
 
-### [Workflows](workflows/) -- 6 practical guides
+### [Workflows](workflows/) -- 9 practical guides
 
-The patterns I actually use daily. Covers CLAUDE.md rule design, hook automation, context hygiene, subagent orchestration, verification methods, and mobile workflows via Telegram.
+The patterns I actually use daily. Covers CLAUDE.md rule design, hook automation, context hygiene, context window survival, cross-file sync, file-driven workflows, subagent orchestration, verification methods, and mobile workflows via Telegram.
 
 Concepts explain *what*. Workflows show *how I actually do it*.
 
@@ -40,6 +40,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
+- **2026/04/11** -- Added 3 new workflow guides: context window survival, cross-file sync, file-driven workflow
 - **2026/04/10** -- Added Advisor Strategy to glossary; navigation links and cross-references across all 12 concept files; improved README
 - **2026/03/27** -- Added 6 workflow guides, skills section, tools section
 - **2026/03/25** -- Initial release: 12-concept course + glossary + 7 extended discussions
