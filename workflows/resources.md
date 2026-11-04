@@ -13,6 +13,7 @@ Honest takes match the style of [Curated Skills](../skills/curated.md) and [Tool
 - [Practice already cited here](#practice-already-cited-here)
 - [PARA and the vault skeleton](#para-and-the-vault-skeleton)
 - [Skills and tools](#skills-and-tools)
+- [Super-agent design](#super-agent-design)
 - [Credits](#credits)
 
 ---
@@ -31,6 +32,7 @@ Start with the fleet set if you are here for many desks. Start with the course i
 | [Claude Code Concepts](../claude-code-concepts/) | Twelve lessons. Left as they were. |
 | [Glossary](../claude-code-concepts/glossary.md) | Short definitions for the course. |
 | [Friend starter](../tools/friend-starter.md) | How a starter should present. The pack itself is not in this repo. |
+| [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) | DeepSeek's Super-agent essay set next to this fleet. |
 
 ---
 
@@ -89,11 +91,25 @@ PROOF's "evidence before a victory lap" has a cousin in the curated **verificati
 
 ---
 
+## Super-agent design
+
+The compare page summarizes these. Both URLs were checked for this update. No further DeepSeek URL is guessed here.
+
+| Source | Why it is listed |
+|:---|:---|
+| [Exploring Super-agent Design (English translation)](https://offloop.org/learn/exploring-deepseek-super-agent-design) | Full English translation of the DeepSeek Harness team's architecture essay. |
+| [Super-agent 设计探索 (Chinese reprint)](https://blog.eimoon.com/p/deepseek-super-agent-design/) | Chinese reprint of the same essay. |
+
+[Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) is this repo's reading of that essay against the Soft CoS pages. The essay stays under its authors' terms.
+
+---
+
 ## Credits
 
 - **Terry Chan**, [Terrium](https://github.com/terry42hk/terrium). The fleet pages in this update are practice notes in the same repo, under [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terrium when you share or adapt them, and keep the same license on the adaptation.
 - **Anthropic**, for Claude Code and the public docs linked above. The twelve-lesson course is this repo's explanation of that product. It is not an official manual, and this update does not change the lessons.
 - **Tiago Forte**, for PARA, linked above. IPARAG in this repo is a public skeleton built on that method, not a Forte Labs product.
+- **DeepSeek Harness team**, for the Super-agent essay linked above. Yujia Qiao wrote it with the team. The English page is a translation and the Chinese page is a reprint. [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) is this repo's comparison, under the same CC-BY-SA terms as the other fleet pages.
 - **The authors already named** in [Curated Skills](../skills/curated.md) and [Tools](../tools/README.md): 李继刚, Anthropic's published skill patterns, the Humanizer lineage (nicekate, blader, hardikpandya), Paul Bakaus, and the tool authors in the tools tables. Their entries stay the source of those recommendations.
 - **Friends running desks**, including on Grok Bot. These pages teach the routing and board pattern in public. Product behavior stays in each product's own docs. The friend-starter note describes what a folder presents on arrival.
 
@@ -105,5 +121,6 @@ Private vault notes, live rosters, and unpublished personal setup packs are not 
 
 - [Principles](principles.md)
 - [Fleet Architecture](architecture.md)
+- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
 - [Curated Skills](../skills/curated.md)
 - [Tools](../tools/README.md)

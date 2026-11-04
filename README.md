@@ -32,6 +32,8 @@ Friends, fleet operators, and people writing about this practice can start here.
 3. [Soft Chief of Staff](workflows/soft-cos.md) -- one job per desk, one-line redirect, one GM
 4. [Fleet board, empty wake, PROOF](workflows/fleet-board-empty-wake-proof.md) -- start, finish, block, and silence
 
+**Comparing this shape with an always-on harness?** [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md) sets the DeepSeek Harness essay next to this practice: what already matches, what stays a prompt, and what this fleet leaves alone.
+
 ## A picture of the fleet
 
 One friend, one GM, desks that each do a single job, and a markdown board that remembers what chat will not. A scheduled wake with nothing to report stays quiet.
@@ -67,7 +69,7 @@ Plus 7 [extended discussions](claude-code-concepts/extended/) that go deeper on 
 
 Nine guides from Claude Code daily practice: CLAUDE.md rules, hooks, context hygiene, context window survival, cross-file sync, file-driven work, subagent orchestration, verification, and mobile via Telegram.
 
-Beside them, a friend-facing fleet set: [architecture](workflows/architecture.md), [principles](workflows/principles.md), [Soft CoS](workflows/soft-cos.md), the [board](workflows/fleet-board-empty-wake-proof.md), a public [IPARAG vault skeleton](workflows/mac-first-obsidian-iparag.md), and [resources and credits](workflows/resources.md).
+Beside them, a friend-facing fleet set: [architecture](workflows/architecture.md), [principles](workflows/principles.md), [Soft CoS](workflows/soft-cos.md), the [board](workflows/fleet-board-empty-wake-proof.md), a public [IPARAG vault skeleton](workflows/mac-first-obsidian-iparag.md), [resources and credits](workflows/resources.md), and a [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md) comparison.
 
 Concepts explain *what*. Workflows show *how the work actually runs*.
 
@@ -81,6 +83,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
+- **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
 - **2026/11/05** -- Friend-facing fleet foundation: architecture diagrams, principles, Soft CoS, fleet board with empty-wake and PROOF, a public IPARAG vault skeleton, resources and credits, and a short note on how a friend starter presents. The 12 Claude Code concepts are unchanged.
 - **2026/04/11** -- Added 3 new workflow guides: context window survival, cross-file sync, file-driven workflow
 - **2026/04/10** -- Added Advisor Strategy to glossary; navigation links and cross-references across all 12 concept files; improved README

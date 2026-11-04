@@ -150,6 +150,7 @@ If the friend instead asks Writer "what is the refund policy?", Writer answers `
 | How do start, silence, and PROOF look on the page? | [Fleet board](fleet-board-empty-wake-proof.md) |
 | Where do the notes live? | [Mac-first vault](mac-first-obsidian-iparag.md) |
 | Who do we credit, and where else should I read? | [Resources and credits](resources.md) |
+| How does this compare with an always-on harness? | [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) |
 
 Claude Code's twelve lessons stay the coding curriculum. A desk fleet is a different scale: separate jobs and a shared board, rather than subagents inside one coding session. See [Subagent Orchestration](subagent-orchestration.md) when the work is still one session.
 
@@ -161,3 +162,4 @@ Claude Code's twelve lessons stay the coding curriculum. A desk fleet is a diffe
 - [Soft Chief of Staff](soft-cos.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
 - [Subagent Orchestration](subagent-orchestration.md)
+- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
