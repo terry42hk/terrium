@@ -2,6 +2,8 @@
 
 A page for the first time you ask an agent to do work.
 
+The point is a result you can get again. The same job tomorrow should land in the same shape.
+
 Say what you want, what finished looks like, what not to touch, and how we know it worked. Put them in the message. You can read that message again tomorrow without the chat, and the agent has less room to guess.
 
 Four things, every time:
@@ -23,6 +25,7 @@ License for this page: [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terriu
 
 ## Contents
 
+- [Why this beats ask and hope](#why-this-beats-ask-and-hope)
 - [The message](#the-message)
 - [What finished looks like](#what-finished-looks-like)
 - [What not to touch](#what-not-to-touch)
@@ -31,6 +34,22 @@ License for this page: [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terriu
 - [Before and after](#before-and-after)
 - [Say this, skip that](#say-this-skip-that)
 - [One ask, one job](#one-ask-one-job)
+
+---
+
+## Why this beats ask and hope
+
+"Make it clearer" can work on a good day. The next day it rewrites a file you meant to keep, fills a blank with a guess, and says it is done. You have no way to tell the good day from the bad one.
+
+The same four questions are a lightweight harness. A harness, here, is constraints plus checkpoints.
+
+Constraints are the edges you set before it starts. What you want. What not to touch. The notes and screens that already have the answer.
+
+Checkpoints are how you can tell it finished. What finished looks like. How we know it worked. You open that thing and look. The agent does not get to call it done.
+
+Put them in the message and the next time has the same edges and the same check. The model can still miss. A miss sits on a line you can point at, and the job stays open until that line holds. That is a stable outcome.
+
+The version where a rule runs even when the model forgets it lives in the course, under [Harness vs Model](../claude-code-concepts/01-harness-vs-model.md). This page is the harness you can write in chat today.
 
 ---
 
