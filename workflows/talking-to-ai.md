@@ -2,21 +2,22 @@
 
 A page for the first time you ask an agent to do work.
 
-A loose prompt is a wish. What you send is a **work order**: a small contract the agent can carry out, and that you can read again tomorrow without the chat. The order carries its own facts. The agent has less room to guess.
+The point is a result you can get again. The same job tomorrow should land in the same shape.
 
-Five parts, every time:
+Say what you want, what finished looks like, what not to touch, and how we know it worked. Put them in the message. You can read that message again tomorrow without the chat, and the agent has less room to guess.
 
-| Part | What you write | The question it closes |
+Four things, every time:
+
+| In the message | What you say | It answers |
 |:---|:---|:---|
-| **Goal** | One job, including who it is for | What is this ask? |
-| **Deliverable** | The file, the section, the link, or the reply | What do I get back? |
-| **Interfaces** | The files, screens, and notes that already exist | Where is the truth? |
-| **Rules** | The don't list, and when to stop | What stays untouched? |
-| **Done-when** | The condition a stranger can check | When is it finished? |
+| **What you want** | One job, and who it is for | What are we doing? |
+| **What finished looks like** | The file, the section, the link, or the reply | What do I open? |
+| **What not to touch** | What stays as it is, and when to stop | What do we leave alone? |
+| **How we know it worked** | A check someone outside this chat can do | When are we done? |
 
-Done-when is the acceptance line. On a [fleet board](fleet-board-empty-wake-proof.md) it is the same field inside PROOF.
+Also name the notes, files, and screens that already have the answer. If you skip them, the agent invents them.
 
-These are sentence patterns. A costume such as "you are a world-class expert" still needs a file name and a finish line.
+You can say each one in a normal sentence. "You are a world-class expert" still needs a file name and a way to tell it worked.
 
 License for this page: [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terrium.
 
@@ -24,185 +25,217 @@ License for this page: [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terriu
 
 ## Contents
 
-- [The work order](#the-work-order)
-- [Name the deliverable](#name-the-deliverable)
-- [Done-when](#done-when)
-- [PROOF, when the finish has to last](#proof-when-the-finish-has-to-last)
+- [Why this beats ask and hope](#why-this-beats-ask-and-hope)
+- [The message](#the-message)
+- [What finished looks like](#what-finished-looks-like)
+- [What not to touch](#what-not-to-touch)
+- [How we know it worked](#how-we-know-it-worked)
+- [When someone has to see it later](#when-someone-has-to-see-it-later)
 - [Before and after](#before-and-after)
-- [Patterns, not spells](#patterns-not-spells)
+- [Say this, skip that](#say-this-skip-that)
 - [One ask, one job](#one-ask-one-job)
 
 ---
 
-## The work order
+## Why this beats ask and hope
 
-Labels help while the habit is new. Prose is fine once the same five parts are always there.
+"Make it clearer" can work on a good day. The next day it rewrites a file you meant to keep, fills a blank with a guess, and says it is done. You have no way to tell the good day from the bad one.
 
-```markdown
-Goal: State the shop's refund window for a clerk.
-Deliverable: a new file, your-vault/Projects/shop/refund-window.md
-Interfaces: the human notes in your-vault/Projects/shop/notes.md
-Done-when: the file has three short sections a clerk can follow: the window, the exceptions, and who approves an exception.
-Rules: leave pricing.md unchanged. Do not publish. Leave the human lines as written.
-Stop: if a number is missing, stop and name the number.
-```
+The same four questions are a lightweight harness. A harness, here, is constraints plus checkpoints.
+
+Constraints are the edges you set before it starts. What you want. What not to touch. The notes and screens that already have the answer.
+
+Checkpoints are how you can tell it finished. What finished looks like. How we know it worked. You open that thing and look. The agent does not get to call it done.
+
+Put them in the message and the next time has the same edges and the same check. The model can still miss. A miss sits on a line you can point at, and the job stays open until that line holds. That is a stable outcome.
+
+The version where a rule runs even when the model forgets it lives in the course, under [Harness vs Model](../claude-code-concepts/01-harness-vs-model.md). This page is the harness you can write in chat today.
+
+---
+
+## The message
+
+Write it the way you would message a teammate.
+
+> Can you write the refund window so a clerk can follow it? New file, `your-vault/Projects/shop/refund-window.md`. Start from the notes in `your-vault/Projects/shop/notes.md` and leave those lines as I wrote them. Three short sections: the window, the exceptions, and who approves an exception. Leave `pricing.md` alone. Don't publish. If a number isn't in the notes, stop and tell me which one.
+
+That message already says:
+
+- What you want: a clerk can follow the refund window.
+- What finished looks like: a new file with three short sections.
+- What not to touch: pricing, publishing, and the lines you already wrote.
+- How we know it worked: a clerk who was not in this chat can follow the three sections. A missing number means stop.
 
 `your-vault/` is a placeholder, as in the [vault skeleton](mac-first-obsidian-iparag.md). Public examples stop there.
 
-**Interfaces** are the page, the note, and the screen that already hold the truth. Name them. An unnamed interface gets invented.
+Name the page, the note, and the screen that already hold the answer, so the agent does not invent them.
 
-**Rules** are the don't list. [Soft Chief of Staff](soft-cos.md) hands a desk the same brief: who it is for, the done-when, and the don't. The work order names the task. The deliverable is what comes back from it.
+[Soft Chief of Staff](soft-cos.md) is the same kind of note, for when several agents split the work: who it is for, what finished looks like, and what to leave alone.
 
-A wish leaves a part blank. "Help me with refunds" names a topic. The form of the reply, the finish line, and the files that must stay put are still open, so the agent picks them.
+"Help me with refunds" names a topic. The shape of the reply, the finish, and the files that must stay put are still open, so the agent picks them.
 
-When the wish is still vague, write the short spec before any building. Goal, deliverable, done-when, rules. Then let the agent iterate until the done-when holds.
+When the wish is still vague, write the message before any building. Then let the agent keep going until the check you named is true.
 
-If a test already covers that line, leave the test alone. The agent changes the work until the test passes. If the job is a page, the check is the section you open and read. Same work order. The evidence is whatever you can open.
+If a test already covers the line, say to leave the test alone. The agent changes the work until the test passes. If the job is a page, the check is the section you open and read.
 
 ---
 
-## Name the deliverable
+## What finished looks like
 
-The deliverable is the object you expect back.
+Say the thing you expect to open.
 
-| You expect back | Say it as |
+| You expect back | Say it like this |
 |:---|:---|
-| A new note | `Deliverable: your-vault/Projects/shop/refund-window.md` |
-| An edit to one section | `Deliverable: a new section in the existing page, under "Refunds"` |
-| A link a person can open | `Deliverable: a draft review link. The description lists the files.` |
-| A decision, still in chat | `Deliverable: three options in the reply, one recommended. Write no file.` |
+| A new note | "New file: `your-vault/Projects/shop/refund-window.md`." |
+| An edit to one section | "Add a section on the existing page, under Refunds. Leave the rest." |
+| A link a person can open | "Send a link to the draft. The description lists the files." |
+| A decision, still in chat | "Three options in the reply, and the one you recommend. Don't write a file." |
 
-Say so when the deliverable is a reply. Otherwise a helpful agent creates a file you did not ask for.
+Say when you want the answer in the reply. A helpful agent will otherwise create a file you did not ask for.
 
-A result that has to survive the conversation belongs in a file. [File-driven workflow](file-driven-workflow.md) is the longer version: chat is where the talking happens, and the file is where the conclusion stays.
+Something that has to survive the conversation belongs in a file. [File-driven workflow](file-driven-workflow.md) is the longer version: the chat is where you talk, and the file is where the conclusion stays.
 
-Before the agent starts, name two things: the object you will open, and the check you will perform on it. If either one is hard to name, the job is still a wish. Narrow it until both are obvious. The rules line says what is allowed to change, and what needs a separate yes.
-
----
-
-## Done-when
-
-Done-when is an observable condition. "Looks good" is a mood. "The page has three sections a clerk can follow" is a condition. "The empty cart shows the empty-cart message" is a condition.
-
-A done-when has a failed state you can point at. "Clearer" has none. An agent will treat a compliment as success.
-
-Keep two levels, so the list stays short:
-
-- **Every job.** Standing rules live with the project. In this repo that is [CLAUDE.md rules](claude-md-rules.md) and the [principles](principles.md): human notes stay as written, public pages stay public, a finish can point at evidence.
-- **This job.** The lines live in the work order. They name the window, the exception, the screen, the file.
-
-A job that misses one line is still in progress. For each line, the reply says where you can look. [Verification](verification-workflow.md) is you actually looking. A message that says "saved" waits until you open the file.
+Before the agent starts, name two things: what you will open, and what you will check. If either one is hard to name, the job is still a wish. Narrow it until both are obvious.
 
 ---
 
-## PROOF, when the finish has to last
+## What not to touch
 
-Goal, deliverable, done-when, and rules are enough for one conversation.
+Say what stays as it is, and when the agent should stop and ask.
 
-When you tomorrow, or another desk, must see how the job ended, use the four fields from [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md):
+Leave a decision you already made. "Leave this note as written" keeps your sentence in the file. "Leave the test alone" keeps the check honest. "Don't publish" and "don't edit pricing" say where this job stops.
 
-| Field | In the work order | You can check it by |
-|:---|:---|:---|
-| **task** | The goal, one line | Reading it |
-| **done-when** | The acceptance line | Doing the check |
-| **evidence** | The path, link, or test | Opening it |
-| **don't** | The rules | Seeing that change is absent |
+If a fact is missing, the message says to stop and name the gap. That pause is how a guess stays out of the file.
 
-You can ask for the report in the same order: "When you finish, reply with task, done-when, evidence, and don't."
+Anything you did not name needs its own yes, in a second message. [Soft CoS](soft-cos.md) gives those two messages two owners when more than one agent is around. On your own, you still send two messages.
 
-A missing field means the row is still open. The board page shows the spot-check. The four words work in a single chat, before any fleet exists.
+Keep the list short by splitting two kinds of lines:
+
+- **Every job.** A few lines live with the project. In this repo that is [CLAUDE.md rules](claude-md-rules.md) and the [principles](principles.md): human notes stay as written, public pages stay public, and a finish points at something you can open.
+- **This job.** The lines in this message. They name the window, the exception, the screen, the file.
+
+---
+
+## How we know it worked
+
+"The page has three sections a clerk can follow" is a check. "The empty cart shows the empty-cart message" is a check. "Clearer" has no failed version you can point at. The agent will treat a compliment as success.
+
+What you left alone is part of finished. A refund note that also rewrites pricing did not finish.
+
+A job that misses one line is still in progress. For each line, the reply says where you can look. [Verification](verification-workflow.md) is you actually looking. "Saved" waits until you open the file.
+
+---
+
+## When someone has to see it later
+
+The four things above are enough for one conversation.
+
+When you need the ending tomorrow, or someone else does, ask for a short recap:
+
+- what the job was
+- what finished looked like
+- where to look: the path, the link, or the test
+- what you left alone
+
+You can ask in the same message: "When you finish, tell me what the job was, what finished looked like, where to look, and what you left alone."
+
+A [fleet board](fleet-board-empty-wake-proof.md) writes that recap under four names: task, done-when, evidence, and don't. Together they are called PROOF. Ask for the recap in the words above. The names can wait until you have a board. A missing line means it is still open. The four questions work in a single chat, before any fleet exists.
 
 ---
 
 ## Before and after
 
+The first message is the one we usually type. The second is the same ask, written so a teammate could start.
+
 ### A page
 
-Wish:
+Before:
 
 > Can you improve our refund explanation? Make it clearer and more professional.
 
-The agent can rewrite any file, invent a policy, or answer in chat.
+The agent can rewrite any file, invent a policy, or answer in the chat.
 
-Work order:
+After:
 
-> Goal: State the refund window for a clerk.
-> Deliverable: a new file, `your-vault/Projects/shop/refund-window.md`.
-> Interfaces: `your-vault/Projects/shop/notes.md`. Leave those human lines as written.
-> Done-when: three short sections, the window, the exceptions, and who approves an exception. A clerk who was not in this chat can follow them.
-> Rules: do not edit the pricing page. Do not publish. If a number is missing, stop and name it.
+> Can you write the refund window so a clerk can follow it?
+>
+> New file, `your-vault/Projects/shop/refund-window.md`. Start from the notes in `your-vault/Projects/shop/notes.md` and leave those lines as I wrote them. Three short sections: the window, the exceptions, and who approves an exception. A clerk who was not in this chat should be able to follow them.
+>
+> Leave the pricing page alone. Don't publish. If a number isn't in the notes, stop and tell me which one.
 
 ### A fix
 
-Wish:
+Before:
 
 > The cart feels broken. Look around and fix stuff.
 
-Work order:
+After:
 
-> Goal: The empty cart throws. It should show the empty-cart message.
-> Deliverable: a branch with that fix. Do not merge.
-> Interfaces: the empty-cart screen, and the test that covers it if one exists.
-> Done-when: an empty cart shows the empty-cart message.
-> Evidence: the test that failed before and passes after, or the screen I can open.
-> Rules: do not restyle checkout. Do not change shipping rules. If a test already covers this, leave the test alone.
+> The empty cart throws. It should show the empty-cart message.
+>
+> Put the fix on a branch, and don't merge. Look at the empty-cart screen, and at the test that covers it if we have one.
+>
+> We're done when an empty cart shows that message. Send the test that was failing and now passes, or tell me which screen to open.
+>
+> Don't restyle checkout. Don't change shipping rules. If a test already covers this, leave the test alone.
 
-The second version is a short spec. The agent can iterate toward the done-when. The rules stay put.
+The agent can keep going until the empty cart shows the message. Checkout styling and shipping stay put.
 
 ### A note you will reread
 
-Wish:
+Before:
 
 > Teach me about agents.
 
-Work order:
+After:
 
-> Goal: Explain the one term that blocked the shop page today.
-> Deliverable: `your-vault/Knowledge/agents-one-term.md`.
-> Done-when: the note names the goal it serves, defines the one term in my words, and links the page where I hit it.
-> Rules: do not outline a course. Do not create a second file.
+> I got stuck on one term on the shop page today. Can you explain just that term?
+>
+> Put it in `your-vault/Knowledge/agents-one-term.md`. Say what I was trying to do, define the term in my words, and link the page where I hit it.
+>
+> Don't outline a course. Don't create a second file.
 
-That third order is the start of [How to learn AI](learning-ai.md). The goal comes first. The note is a byproduct.
+That third message is the start of [How to learn AI](learning-ai.md). The job comes first. The note comes out of the job.
 
 ---
 
-## Patterns, not spells
+## Say this, skip that
 
-Say these in a normal sentence. Each one fails if the deliverable is still missing.
+Say these in a normal sentence. Each one fails if you never said what you want back.
 
-### Do
+### Say this
 
-| Pattern | What it fixes |
+| You can say | What it saves you from |
 |:---|:---|
-| "The work order is …" | A wish with no contract |
-| "The deliverable is …" | The form of the reply |
-| "Done when I can open … and check …" | The acceptance line |
-| "Read these files first." | The interfaces |
-| "Leave this note as written." | A decision you already made |
-| "If a fact is missing, stop and name it." | A gap filled by invention |
-| "One file." | A review you can finish |
-| "Reply with the path" or "reply with the link." | Evidence attached to the claim |
+| "I need a note a clerk can follow." | A topic with no job |
+| "Put it in this file." or "Reply in chat. Don't make a file." | A surprise document |
+| "We're done when I can open this and see that." | A finish nobody can check |
+| "Read these files first." | A source the agent made up |
+| "Leave this note as written." | A decision you already made, rewritten |
+| "If a fact is missing, stop and name it." | A gap filled in with a guess |
+| "One file." | A pile you will not review |
+| "Reply with the path." or "Reply with the link." | A "done" you cannot open |
 
-### Don't
+### Skip this
 
-| Pattern | What you get instead |
+| You might say | What you get back |
 |:---|:---|
-| "Make it better." | A style the agent chose, and no finish line |
-| "You know what I mean." | A guess at taste you never stated |
+| "Make it better." | A style the agent picked, and no finish |
+| "You know what I mean." | A guess at a taste you never said |
 | "While you are there, also …" | A second job inside the first |
-| "Handle everything related." | A scope with no edge |
-| "Act as a world-class …" | A costume in front of a missing file name |
+| "Handle everything related." | Work with no edge |
+| "Act as a world-class …" | A costume, and still no file name |
 | "Keep going until it feels perfect." | A loop with no stop |
 
-"While you are there" is how one order becomes two. Split it. [Soft CoS](soft-cos.md) gives the two pieces two owners when more than one desk exists. Alone, you still send two work orders.
+"While you are there" is how one ask becomes two. Send the second ask on its own.
 
 ---
 
 ## One ask, one job
 
-One sentence of work. Research that ends in a list of sources is one order. A page that uses that list is the next order.
+One sentence of work. Finding the sources is one message. The page that uses those sources is the next message.
 
-[Principles](principles.md) put the same limit on a fleet: one bot, one job. In a single chat you are the router. The agent is the desk. The deliverable is the row you can point at tomorrow.
+[Principles](principles.md) put the same limit on a fleet: one bot, one job. In a single chat, you pick the job. Tomorrow you should be able to point at the file.
 
 ---
 
