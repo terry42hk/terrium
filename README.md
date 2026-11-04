@@ -17,6 +17,13 @@ By [Terry Chan](https://github.com/terry42hk)
 
 ## Start here
 
+### New to asking an agent
+
+Two short pages. They assume an agent is open and you have something you want done. The course and the fleet come after.
+
+1. [How to talk to AI](workflows/talking-to-ai.md) -- the deliverable, the done-when, and what to leave alone
+2. [How to learn AI](workflows/learning-ai.md) -- a real goal first, then the boundary you hit, then a markdown vault
+
 ### Claude Code, the core
 
 **New to Claude Code?** Begin with the [Concepts Course](claude-code-concepts/) -- 12 structured lessons from architecture to advanced automation.
@@ -65,7 +72,9 @@ A structured course on mastering Claude Code. Start from Tier 1 and work down --
 
 Plus 7 [extended discussions](claude-code-concepts/extended/) that go deeper on specific topics, and a [glossary](claude-code-concepts/glossary.md) with 30+ terms.
 
-### [Workflows](workflows/) -- Claude Code practice and a fleet foundation
+### [Workflows](workflows/) -- newcomer pages, Claude Code practice, and a fleet foundation
+
+Two beginner pages: [how to talk to an agent](workflows/talking-to-ai.md) and [how to learn by shipping](workflows/learning-ai.md).
 
 Nine guides from Claude Code daily practice: CLAUDE.md rules, hooks, context hygiene, context window survival, cross-file sync, file-driven work, subagent orchestration, verification, and mobile via Telegram.
 
@@ -83,6 +92,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
+- **2026/11/05** -- Added two beginner workflow pages: [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md). A work order with a deliverable and a done-when, and a practice-first way to grow a markdown vault. The course and the fleet pages stay as they were.
 - **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
 - **2026/11/05** -- Friend-facing fleet foundation: architecture diagrams, principles, Soft CoS, fleet board with empty-wake and PROOF, a public IPARAG vault skeleton, resources and credits, and a short note on how a friend starter presents. The 12 Claude Code concepts are unchanged.
 - **2026/04/11** -- Added 3 new workflow guides: context window survival, cross-file sync, file-driven workflow
@@ -92,8 +102,9 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Who this is for
 
-Three readers, one repo:
+Four readers, one repo:
 
+- **Newcomers** with an agent open and a job in mind. Start with [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md).
 - **Claude Code users** learning the tool, or sharpening the mental models behind it. Start with the course.
 - **Friends running a fleet** -- Grok Bot or any set of one-job desks -- who want the routing rules and the board in public, without a tour of a private vault.
 - **People writing public content** about these workflows. The pages are written to be linked, quoted, and adapted.
