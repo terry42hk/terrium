@@ -140,7 +140,7 @@ Every finish carries four fields. The names are the contract.
 
 PROOF is how a desk reports. [Verification](verification-workflow.md) is how you check a coding change before you trust it. Use verification on the artifact. Use PROOF so the human knows which four fields to read. Spot-checking PROOF does not replace running the test the evidence points at.
 
-The same four fields are the newcomer's contract in [How to talk to AI](talking-to-ai.md), including when no board exists yet.
+The same four questions show up in everyday words in [How to talk to AI](talking-to-ai.md), including when no board exists yet.
 
 ---
 

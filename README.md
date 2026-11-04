@@ -21,8 +21,8 @@ By [Terry Chan](https://github.com/terry42hk)
 
 Two short pages. They assume an agent is open and you have something you want done. The course and the fleet come after.
 
-1. [How to talk to AI](workflows/talking-to-ai.md) -- the deliverable, the done-when, and what to leave alone
-2. [How to learn AI](workflows/learning-ai.md) -- a real goal first, then the boundary you hit, then a markdown vault
+1. [How to talk to AI](workflows/talking-to-ai.md) -- what you want, what finished looks like, what to leave alone, and how you know it worked
+2. [How to learn AI](workflows/learning-ai.md) -- a real pain first, then the page for the wall you hit, then a markdown vault
 
 ### Claude Code, the core
 
@@ -92,6 +92,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
+- **2026/11/05** -- Rewrote the two beginner pages in everyday language. [How to talk to AI](workflows/talking-to-ai.md) asks for what you want, what finished looks like, what not to touch, and how you know it worked, and shows the before and after as chat. [How to learn AI](workflows/learning-ai.md) matches that voice. The course and the fleet pages stay as they were.
 - **2026/11/05** -- Added two beginner workflow pages: [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md). A work order with a deliverable and a done-when, and a practice-first way to grow a markdown vault. The course and the fleet pages stay as they were.
 - **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
 - **2026/11/05** -- Friend-facing fleet foundation: architecture diagrams, principles, Soft CoS, fleet board with empty-wake and PROOF, a public IPARAG vault skeleton, resources and credits, and a short note on how a friend starter presents. The 12 Claude Code concepts are unchanged.

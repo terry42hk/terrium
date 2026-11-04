@@ -20,11 +20,11 @@ Honest takes match the style of [Curated Skills](../skills/curated.md) and [Tool
 
 ## In this repo
 
-Start with the two beginner pages if you are still finding the sentence. Start with the fleet set if you are here for many desks. Start with the course if you are here to learn Claude Code.
+Start with the two beginner pages if you are about to ask an agent for work. Start with the fleet set if you are here for many desks. Start with the course if you are here to learn Claude Code.
 
 | Read | Why |
 |:---|:---|
-| [How to talk to AI](talking-to-ai.md) | The sentence: deliverable, done-when, don't. PROOF when the finish must last. |
+| [How to talk to AI](talking-to-ai.md) | What you want, what finished looks like, what not to touch, and how you know it worked. |
 | [How to learn AI](learning-ai.md) | A real pain first, then the page that names the wall. A vault for what you keep. |
 | [Fleet Architecture](architecture.md) | The routing picture and the board loop, in one place. |
 | [Principles](principles.md) | The checklist to follow when you copy the pattern. |
