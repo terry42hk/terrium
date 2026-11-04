@@ -113,6 +113,8 @@ The worked versions live in [Soft Chief of Staff](soft-cos.md) and [Fleet board,
 
 ## Related
 
+- [How to Talk to AI](talking-to-ai.md)
+- [How to Learn AI](learning-ai.md)
 - [Fleet Architecture](architecture.md)
 - [Soft Chief of Staff](soft-cos.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)

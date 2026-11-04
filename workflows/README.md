@@ -1,13 +1,23 @@
 # Workflows
 
-Practical patterns from daily practice. The Claude Code guides are the coding core (the course itself lives in [claude-code-concepts](../claude-code-concepts/)). The fleet foundation is for friends running more than one desk, including Grok Bot, with public rules instead of a tour of a private vault.
+Practical patterns from daily practice. Start with the [newcomer pages](#newcomers) if you are still finding the sentence. The Claude Code guides are the coding core (the course itself lives in [claude-code-concepts](../claude-code-concepts/)). The fleet foundation is for friends running more than one desk, including Grok Bot, with public rules instead of a tour of a private vault.
 
 ## Contents
 
+- [Newcomers](#newcomers)
 - [Fleet foundation](#fleet-foundation)
 - [A comparison](#a-comparison)
 - [Claude Code practice](#claude-code-practice)
 - [Philosophy](#philosophy)
+
+## Newcomers
+
+Two pages. Read them in order if you are new to asking an agent for work.
+
+| Guide | What it covers |
+|-------|---------------|
+| [How to Talk to AI](talking-to-ai.md) | A work order: deliverable, interfaces, rules, done-when, and optional PROOF. |
+| [How to Learn AI](learning-ai.md) | A real pain first, then the page that names the wall, then a markdown vault. |
 
 ## Fleet foundation
 
@@ -51,3 +61,5 @@ Nine guides. Concepts explain *what*. These show how the work actually runs.
 These workflows share a common thread: **deterministic discipline around a probabilistic model**. Claude is brilliant but forgetful. The workflows exist to catch what it misses and enforce what it can't guarantee on its own.
 
 The fleet pages share that thread at a different scale. A group of desks is brilliant and noisy. One job per desk, a board with three verbs, and silence when nothing changed are how the noise stays out of tomorrow's session.
+
+The newcomer pages use the same thread at the size of one ask. A deliverable and a done-when give the model a finish line. A vault gives tomorrow's session the note the chat will not keep.

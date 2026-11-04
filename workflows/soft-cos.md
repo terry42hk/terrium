@@ -100,6 +100,8 @@ The GM leaves specialist context on the owner desk. A GM that keeps a private co
 
 A handoff from GM to Writer is a board row plus a short brief, for example: audience, done-when, and the don't. The brief is the task. It is not the draft.
 
+That brief is the whole contract. [How to talk to AI](talking-to-ai.md) writes it out for a newcomer who has one agent and no fleet yet.
+
 ---
 
 ## Worked examples
@@ -157,6 +159,7 @@ Both can exist. They answer different questions. A Writer desk may use subagents
 
 ## Related
 
+- [How to Talk to AI](talking-to-ai.md)
 - [Fleet Architecture](architecture.md)
 - [Principles](principles.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)

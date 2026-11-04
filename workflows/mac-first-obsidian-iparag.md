@@ -39,7 +39,7 @@ your-vault/
 
 | Folder | What belongs there | What moves out |
 |:---|:---|:---|
-| **Inbox** | Captures you have not sorted. A link, a sentence, a file dropped in a hurry. | Anything that has an owner. Inbox is a door, not a second board. |
+| **Inbox** | Captures you have not sorted. A link, a sentence, a clip, a file dropped in a hurry. | Anything that has an owner. Inbox is a door, not a second board. |
 | **Projects** | Efforts with a finish line. One folder per effort. | Finished efforts, which move to Archives. |
 | **Area** | Ongoing responsibilities with no finish line: a shop, a publication, health, finances. PARA calls these Areas. | A responsibility you no longer hold, which moves to Archives. |
 | **Resources** | Reference you are keeping on purpose: sources, checklists, reading notes. | Material you only needed for one project, which can live in that project instead. |
@@ -50,6 +50,8 @@ your-vault/
 A note has one home. A map of content in Knowledge can link to a project. The project file remains the file you edit for that effort.
 
 Agents follow the same map. A desk files a capture in Inbox or appends to the project it was given. It does not invent a new top-level folder, and it does not rewrite a human's note while filing. The checklist is [Principles](principles.md).
+
+A bookmark or a clip is an Inbox capture until it has a home. [How to learn AI](learning-ai.md) is that habit: keep a line in your own words, and let an agent suggest the folder.
 
 ---
 
@@ -113,6 +115,7 @@ If you are packaging a desk for a friend rather than a whole vault, use the shor
 
 ## Related
 
+- [How to Learn AI](learning-ai.md)
 - [Principles](principles.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
 - [Cross-File Sync](cross-file-sync.md)
