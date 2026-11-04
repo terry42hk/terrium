@@ -161,3 +161,4 @@ Both can exist. They answer different questions. A Writer desk may use subagents
 - [Principles](principles.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
 - [Subagent Orchestration](subagent-orchestration.md)
+- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)

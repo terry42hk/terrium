@@ -5,6 +5,7 @@ Practical patterns from daily practice. The Claude Code guides are the coding co
 ## Contents
 
 - [Fleet foundation](#fleet-foundation)
+- [A comparison](#a-comparison)
 - [Claude Code practice](#claude-code-practice)
 - [Philosophy](#philosophy)
 
@@ -20,6 +21,14 @@ Read in this order if you are new to multi-agent desks.
 | [Fleet Board, Empty Wake, PROOF](fleet-board-empty-wake-proof.md) | Shared board with start / finish / block, silence on an empty wake, four-field PROOF |
 | [Mac-first Vault (IPARAG)](mac-first-obsidian-iparag.md) | Public folder roles and local vault → git bridge → remote fallback |
 | [Resources and Credits](resources.md) | Where to read next, and who to credit |
+
+## A comparison
+
+Optional. Read it after the fleet pages, when you want an outside design set next to this one.
+
+| Guide | What it covers |
+|-------|---------------|
+| [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) | DeepSeek Harness Super-agent traits and Router/Worker design, what this fleet already mirrors, the gaps, and the non-goals |
 
 ## Claude Code practice
 
