@@ -1,6 +1,6 @@
-# Context Window Survival — Three Failure Patterns
+# 33. Context Window Survival — Three Failure Patterns
 
-> Companion to [Context Hygiene](context-hygiene.md), which covers the tools. This guide covers the failure patterns — what goes wrong and when.
+> Companion to [Context Hygiene](32-context-hygiene.md), which covers the tools. This guide covers the failure patterns — what goes wrong and when.
 
 The context window is finite. Most developers know this. What they don't know is *how* they're exhausting it. After months of daily Claude Code use and watching others hit the same walls, I've identified three recurring failure patterns — each with a concrete fix.
 
@@ -26,7 +26,7 @@ Agent(subagent_type="Explore", prompt="Read all files in docs/ and summarize key
 
 **My rule:** If a task requires reading more than 5 files, it belongs in a subagent. Main context stays light.
 
-See [Subagent Orchestration](subagent-orchestration.md) for patterns on delegating effectively.
+See [Subagent Orchestration](36-subagent-orchestration.md) for patterns on delegating effectively.
 
 ---
 
@@ -59,7 +59,7 @@ Don't wait for autocompact to fire. When you finish a logical phase, trigger `/c
 /compact focus on the authentication migration decisions
 ```
 
-Directed compression preserves what you specify. Automatic compression preserves what the system guesses. See [Context Hygiene](context-hygiene.md) for the 60% rule and PostCompact hook pattern.
+Directed compression preserves what you specify. Automatic compression preserves what the system guesses. See [Context Hygiene](32-context-hygiene.md) for the 60% rule and PostCompact hook pattern.
 
 ### handover.md — Full Context Transfer
 

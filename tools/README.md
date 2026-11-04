@@ -45,4 +45,4 @@ Articles and threads that shaped how I think about these tools:
 
 - **"I Stopped Collecting Skills. Started Wiring Them Into Loops"** — The key insight: installing skills ≠ using them. Real value comes from scheduling + persistent memory + feedback loops.
 - **"10 Patterns from Claude Code's Source"** — Architecture patterns that explain *why* Claude Code works the way it does.
-- **"My chief of staff, Claude Code"** — 6 parallel subagents with scoped tool access, morning automation reducing 30-45min to single-digit minutes. Listed by title only; this repo has no URL for it. Useful contrast with [Soft CoS](../workflows/soft-cos.md): that pattern is separate one-job desks and a router, not six subagents in one parent session.
+- **"My chief of staff, Claude Code"** — 6 parallel subagents with scoped tool access, morning automation reducing 30-45min to single-digit minutes. Listed by title only; this repo has no URL for it. Useful contrast with [Soft CoS](../workflows/12-soft-cos.md): that pattern is separate one-job desks and a router, not six subagents in one parent session.

@@ -135,7 +135,7 @@ When you chat with ChatGPT or Claude.ai, you type a message and get one reply --
 ---
 
 **Deep Dive:** [Bot vs Agent -- the difference is thick prework and loops](extended/bot-vs-agent.md)
-**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+**Workflow:** [Verification Workflow](../workflows/37-verification-workflow.md)
 
 ---
 

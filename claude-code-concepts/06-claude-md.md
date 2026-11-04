@@ -107,7 +107,7 @@ CLAUDE.md is like a set of house rules posted on the fridge -- everyone sees it 
 ---
 
 **Deep Dive:** [CLAUDE.md solves memory, not execution](extended/claude-md-solves-memory.md)
-**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/claude-md-rules.md)
+**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/30-claude-md-rules.md)
 
 ---
 

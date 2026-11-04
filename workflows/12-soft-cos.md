@@ -1,8 +1,10 @@
-# Soft Chief of Staff (Soft CoS)
+# 12. Soft Chief of Staff (Soft CoS)
+
+Fleet path. Next is the [board](13-fleet-board-empty-wake-proof.md), where start, finish, and silence live.
 
 One job per desk. A wrong desk answers in one line and stops. The friend can talk to one GM, and the GM routes.
 
-This is the routing half of the [fleet picture](architecture.md). The board half is [start, finish, block, and PROOF](fleet-board-empty-wake-proof.md).
+This is the routing half of the [fleet picture](10-architecture.md). The board half is [start, finish, block, and PROOF](13-fleet-board-empty-wake-proof.md).
 
 ---
 
@@ -100,7 +102,7 @@ The GM leaves specialist context on the owner desk. A GM that keeps a private co
 
 A handoff from GM to Writer is a board row plus a short brief, for example: audience, done-when, and the don't. The brief is the task. It is not the draft.
 
-That brief is the whole contract. [How to talk to AI](talking-to-ai.md) writes it out for a newcomer who has one agent and no fleet yet.
+That brief is the whole contract. [How to talk to AI](01-talking-to-ai.md) writes it out for a newcomer who has one agent and no fleet yet.
 
 ---
 
@@ -149,7 +151,7 @@ Research does not publish. Publisher does not go looking for sources. Writer sti
 
 ## Desks and subagents
 
-[Subagent orchestration](subagent-orchestration.md) is a Claude Code pattern: one session, a parent, and isolated helpers that report back. Soft CoS is a fleet pattern: separate desks, one router, a board that survives the session.
+[Subagent orchestration](36-subagent-orchestration.md) is a Claude Code pattern: one session, a parent, and isolated helpers that report back. Soft CoS is a fleet pattern: separate desks, one router, a board that survives the session.
 
 Use subagents when one coding session needs parallel reads. Use Soft CoS when different jobs have different owners and the work has to be findable tomorrow.
 
@@ -159,9 +161,9 @@ Both can exist. They answer different questions. A Writer desk may use subagents
 
 ## Related
 
-- [How to Talk to AI](talking-to-ai.md)
-- [Fleet Architecture](architecture.md)
-- [Principles](principles.md)
-- [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
-- [Subagent Orchestration](subagent-orchestration.md)
-- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
+- [How to Talk to AI](01-talking-to-ai.md)
+- [Fleet Architecture](10-architecture.md)
+- [Principles](11-principles.md)
+- [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md)
+- [Subagent Orchestration](36-subagent-orchestration.md)
+- [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md)

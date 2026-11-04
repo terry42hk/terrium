@@ -1,4 +1,6 @@
-# Fleet Architecture
+# 10. Fleet Architecture
+
+Fleet path, first note. Next is the [checklist](11-principles.md). The beginner path is [01](01-talking-to-ai.md) through [03](03-why-a-markdown-vault.md).
 
 How a small multi-agent desk fits together: one router, one job per desk, and a markdown board that outlives the chat.
 
@@ -63,7 +65,7 @@ Scheduled wake:
   something changed -> board
 ```
 
-Read [Principles](principles.md) next to this picture. The two workflow pages under it are [Soft Chief of Staff](soft-cos.md) and [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md).
+Read [Principles](11-principles.md) next to this picture. The two workflow pages under it are [Soft Chief of Staff](12-soft-cos.md) and [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md).
 
 ---
 
@@ -145,21 +147,21 @@ If the friend instead asks Writer "what is the refund policy?", Writer answers `
 
 | Question | Page |
 |:---|:---|
-| What rules does every desk follow? | [Principles](principles.md) |
-| How does routing work in practice? | [Soft Chief of Staff](soft-cos.md) |
-| How do start, silence, and PROOF look on the page? | [Fleet board](fleet-board-empty-wake-proof.md) |
-| Where do the notes live? | [Mac-first vault](mac-first-obsidian-iparag.md) |
-| Who do we credit, and where else should I read? | [Resources and credits](resources.md) |
-| How does this compare with an always-on harness? | [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) |
+| What rules does every desk follow? | [Principles](11-principles.md) |
+| How does routing work in practice? | [Soft Chief of Staff](12-soft-cos.md) |
+| How do start, silence, and PROOF look on the page? | [Fleet board](13-fleet-board-empty-wake-proof.md) |
+| Where do the notes live? | [Mac-first vault](14-mac-first-obsidian-iparag.md) |
+| Who do we credit, and where else should I read? | [Resources and credits](15-resources.md) |
+| How does this compare with an always-on harness? | [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md) |
 
-Claude Code's twelve lessons stay the coding curriculum. A desk fleet is a different scale: separate jobs and a shared board, rather than subagents inside one coding session. See [Subagent Orchestration](subagent-orchestration.md) when the work is still one session.
+Claude Code's twelve lessons stay the coding curriculum. A desk fleet is a different scale: separate jobs and a shared board, rather than subagents inside one coding session. See [Subagent Orchestration](36-subagent-orchestration.md) when the work is still one session.
 
 ---
 
 ## Related
 
-- [Principles](principles.md)
-- [Soft Chief of Staff](soft-cos.md)
-- [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
-- [Subagent Orchestration](subagent-orchestration.md)
-- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
+- [Principles](11-principles.md)
+- [Soft Chief of Staff](12-soft-cos.md)
+- [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md)
+- [Subagent Orchestration](36-subagent-orchestration.md)
+- [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md)

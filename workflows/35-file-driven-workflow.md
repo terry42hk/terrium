@@ -1,4 +1,4 @@
-# File-Driven Workflow — Why Chat Fails as Memory
+# 35. File-Driven Workflow — Why Chat Fails as Memory
 
 The most common mistake in AI-assisted development isn't writing bad prompts. It's putting all your context in the chat window and expecting the AI to remember it.
 
@@ -57,7 +57,7 @@ Write your project conventions once:
 
 Every session loads this automatically. You never re-explain.
 
-See [CLAUDE.md Rules](claude-md-rules.md) for battle-tested rule patterns.
+See [CLAUDE.md Rules](30-claude-md-rules.md) for battle-tested rule patterns.
 
 ### 2. Task Context — plan.md / spec.md
 
@@ -104,7 +104,7 @@ At the end of a meaningful session, spend 2 minutes writing:
 
 Next session: "Read handover.md and continue." Zero context loss. Zero re-explanation.
 
-See [Context Window Survival](context-window-survival.md) for when to trigger a handover (the 70% rule).
+See [Context Window Survival](33-context-window-survival.md) for when to trigger a handover (the 70% rule).
 
 ---
 

@@ -100,7 +100,7 @@ You don't write hooks from scratch -- use examples, ask Claude to generate them,
 ---
 
 **Deep Dive:** [Hook is lifecycle injection, not workflow orchestration](extended/hook-lifecycle-injection.md)
-**Workflow:** [Hooks Patterns](../workflows/hooks-patterns.md)
+**Workflow:** [Hooks Patterns](../workflows/31-hooks-patterns.md)
 
 ---
 

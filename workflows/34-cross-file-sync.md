@@ -1,4 +1,4 @@
-# Cross-File Sync — Making Related Documents Discoverable
+# 34. Cross-File Sync — Making Related Documents Discoverable
 
 Claude Code doesn't maintain relational links between files. When you modify one document, related documents are not automatically updated. This is the most common pain point I hear from people using Claude Code with Obsidian or multi-file documentation projects.
 
@@ -106,7 +106,7 @@ When modifying any project document, first read the project's MOC
 to identify all related files that may need updates.
 ```
 
-This is guidance, not enforcement — Claude will follow it most of the time but may skip it under context pressure. For guaranteed cross-file behavior, use a hook (see [Hook Patterns](hooks-patterns.md)).
+This is guidance, not enforcement — Claude will follow it most of the time but may skip it under context pressure. For guaranteed cross-file behavior, use a hook (see [Hook Patterns](31-hooks-patterns.md)).
 
 ### The Updated Flow
 
@@ -137,6 +137,6 @@ Claude's workflow:
 
 ## Limitations
 
-- This pattern is guidance-based. Claude will usually follow it, but may skip steps under context pressure. For deterministic cross-file actions, use [Hooks](hooks-patterns.md).
+- This pattern is guidance-based. Claude will usually follow it, but may skip steps under context pressure. For deterministic cross-file actions, use [Hooks](31-hooks-patterns.md).
 - MOCs require manual maintenance. When you create a new project file, add it to the MOC. This is a small discipline cost for a large coordination benefit.
 - The pattern scales well to ~20-30 files per project. Beyond that, consider splitting into sub-MOCs.

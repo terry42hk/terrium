@@ -164,7 +164,7 @@ Subagents are like sending assistants to do research in separate rooms. Each one
 
 ---
 
-**Workflow:** [Subagent Orchestration](../workflows/subagent-orchestration.md)
+**Workflow:** [Subagent Orchestration](../workflows/36-subagent-orchestration.md)
 
 ---
 

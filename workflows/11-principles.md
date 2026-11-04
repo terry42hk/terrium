@@ -1,4 +1,6 @@
-# Principles
+# 11. Principles
+
+Fleet path, after the [picture](10-architecture.md). Next is [Soft CoS](12-soft-cos.md).
 
 The public checklist for this fleet pattern. Follow it when you run a desk from these pages, teach them, or adapt them.
 
@@ -31,7 +33,7 @@ License for anything you adapt: [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan
 
 Read it once before you add a desk. When a deliverable looks finished, spot-check the list the way you spot-check PROOF: the lines below, not the tone of the surrounding prose.
 
-The worked versions live in [Soft Chief of Staff](soft-cos.md) and [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md). The picture is in [Fleet Architecture](architecture.md).
+The worked versions live in [Soft Chief of Staff](12-soft-cos.md) and [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md). The picture is in [Fleet Architecture](10-architecture.md).
 
 ---
 
@@ -113,9 +115,9 @@ The worked versions live in [Soft Chief of Staff](soft-cos.md) and [Fleet board,
 
 ## Related
 
-- [How to Talk to AI](talking-to-ai.md)
-- [How to Learn AI](learning-ai.md)
-- [Fleet Architecture](architecture.md)
-- [Soft Chief of Staff](soft-cos.md)
-- [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
-- [Resources and credits](resources.md)
+- [How to Talk to AI](01-talking-to-ai.md)
+- [How to Learn AI](02-learning-ai.md)
+- [Fleet Architecture](10-architecture.md)
+- [Soft Chief of Staff](12-soft-cos.md)
+- [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md)
+- [Resources and credits](15-resources.md)

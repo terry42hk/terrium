@@ -141,7 +141,7 @@ Tools are how Claude interacts with your computer -- reading files, editing code
 
 ---
 
-**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+**Workflow:** [Verification Workflow](../workflows/37-verification-workflow.md)
 
 ---
 

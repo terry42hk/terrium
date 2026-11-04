@@ -1,4 +1,6 @@
-# Resources and Credits
+# 15. Resources and Credits
+
+Fleet path, last note. [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md) is optional, after this set.
 
 Places to read next, limited to sources this repo already uses or to pages checked for this update. If a title below has no URL, this repo never stored one, and none is guessed here.
 
@@ -20,21 +22,22 @@ Honest takes match the style of [Curated Skills](../skills/curated.md) and [Tool
 
 ## In this repo
 
-Start with the two beginner pages if you are about to ask an agent for work. Start with the fleet set if you are here for many desks. Start with the course if you are here to learn Claude Code.
+Start with notes 01–03 if you are about to ask an agent for work. Start with 10–15 if you are here for many desks. Start with the course if you are here to learn Claude Code. The numbers match the [workflows index](README.md).
 
 | Read | Why |
 |:---|:---|
-| [How to talk to AI](talking-to-ai.md) | What you want, what finished looks like, what not to touch, and how you know it worked. |
-| [How to learn AI](learning-ai.md) | A real pain first, then the page that names the wall. A vault for what you keep. |
-| [Fleet Architecture](architecture.md) | The routing picture and the board loop, in one place. |
-| [Principles](principles.md) | The checklist to follow when you copy the pattern. |
-| [Soft Chief of Staff](soft-cos.md) | One job, anti-jobs, one-line redirect, one GM door. |
-| [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md) | Start, finish, block, silence, and the four fields. |
-| [Mac-first vault](mac-first-obsidian-iparag.md) | Public folder roles and the sync pattern. |
+| [01. How to talk to AI](01-talking-to-ai.md) | What you want, what finished looks like, what not to touch, and how you know it worked. |
+| [02. How to learn AI](02-learning-ai.md) | A real pain first, then the page that names the wall. A vault for what you keep. |
+| [03. Why a Markdown vault](03-why-a-markdown-vault.md) | Chat is short-term. The folder is the memory you can search, correct, and hand to the next model. |
+| [10. Fleet Architecture](10-architecture.md) | The routing picture and the board loop, in one place. |
+| [11. Principles](11-principles.md) | The checklist to follow when you copy the pattern. |
+| [12. Soft Chief of Staff](12-soft-cos.md) | One job, anti-jobs, one-line redirect, one GM door. |
+| [13. Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md) | Start, finish, block, silence, and the four fields. |
+| [14. Mac-first vault](14-mac-first-obsidian-iparag.md) | Public folder roles and the sync pattern. |
 | [Claude Code Concepts](../claude-code-concepts/) | Twelve lessons. Left as they were. |
 | [Glossary](../claude-code-concepts/glossary.md) | Short definitions for the course. |
 | [Friend starter](../tools/friend-starter.md) | How a starter should present. The pack itself is not in this repo. |
-| [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) | DeepSeek's Super-agent essay set next to this fleet. |
+| [20. Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md) | DeepSeek's Super-agent essay set next to this fleet. |
 
 ---
 
@@ -45,7 +48,7 @@ The course in this repo is the narrative. The product docs are the vendor's.
 | Source | Why it is listed |
 |:---|:---|
 | [Claude Code overview](https://code.claude.com/docs/en/overview) | Current docs home for the product the course teaches. |
-| [Hooks](https://code.claude.com/docs/en/hooks) | Reference behind [Hook Patterns](hooks-patterns.md). The older `docs.anthropic.com` hooks URL used in that guide redirects here. |
+| [Hooks](https://code.claude.com/docs/en/hooks) | Reference behind [Hook Patterns](31-hooks-patterns.md). The older `docs.anthropic.com` hooks URL used in that guide redirects here. |
 | [Skills](https://code.claude.com/docs/en/skills) | Reference behind [Curated Skills](../skills/curated.md). The older docs URL redirects here. |
 | [Advisor strategy](https://claude.com/blog/the-advisor-strategy) | Linked from the glossary. The blog path redirects to Anthropic's current article. |
 
@@ -55,7 +58,7 @@ Hooks and skills in daily use are still the workflow guides in this repo. The do
 
 ## Practice already cited here
 
-These shaped the file and context habits the fleet board sits on. They are already linked from [File-Driven Workflow](file-driven-workflow.md) unless noted.
+These shaped the file and context habits the fleet board sits on. They are already linked from [File-Driven Workflow](35-file-driven-workflow.md) unless noted.
 
 | Source | What I use it for |
 |:---|:---|
@@ -64,7 +67,7 @@ These shaped the file and context habits the fleet board sits on. They are alrea
 | [Visual Studio Magazine — In Agentic AI, It's All About the Markdown](https://visualstudiomagazine.com/articles/2026/02/24/in-agentic-ai-its-all-about-the-markdown.aspx) | Already cited from File-Driven Workflow. Markdown is the durable format; the fleet board is one use of that idea. |
 | [Cursor Forum — PROJECT_JOURNAL](https://forum.cursor.com/t/the-project-journal-ai-context-retention-for-complex-projects/140281) | A journal file as memory across sessions. The fleet board is the same instinct, with stricter verbs. |
 
-**"My chief of staff, Claude Code"** is listed by title in [Tools → Reference Reading](../tools/README.md). This repo never stored a URL for it, so none is added here. That piece is about parallel subagents inside one Claude Code session. [Soft CoS](soft-cos.md) is separate one-job desks, a router, and a board.
+**"My chief of staff, Claude Code"** is listed by title in [Tools → Reference Reading](../tools/README.md). This repo never stored a URL for it, so none is added here. That piece is about parallel subagents inside one Claude Code session. [Soft CoS](12-soft-cos.md) is separate one-job desks, a router, and a board.
 
 **"I Stopped Collecting Skills. Started Wiring Them Into Loops"** and **"10 Patterns from Claude Code's Source"** are the same kind of entry: titles already in the tools note, no URL kept here, so no URL added.
 
@@ -77,7 +80,7 @@ These shaped the file and context habits the fleet board sits on. They are alrea
 | [The PARA Method — Forte Labs](https://fortelabs.com/blog/para/) | Tiago Forte's write-up of Projects, Areas, Resources, and Archives. |
 | [The PARA Method — Building a Second Brain](https://buildingasecondbrain.com/para) | The short public overview of the same method. |
 
-[Mac-first vault](mac-first-obsidian-iparag.md) borrows those four roles, then adds Inbox, Knowledge, and Daily. Area in that skeleton is PARA's Areas. The extension is ours; the four-folder idea is Forte's.
+[Mac-first vault](14-mac-first-obsidian-iparag.md) borrows those four roles, then adds Inbox, Knowledge, and Daily. Area in that skeleton is PARA's Areas. The extension is ours; the four-folder idea is Forte's.
 
 ---
 
@@ -89,7 +92,7 @@ Community skills and standalone tools already have honest notes. Extending them 
 - [Tools](../tools/README.md) — extraction, skill frameworks, Chinese text, knowledge tools.
 - [Friend starter](../tools/friend-starter.md) — presentation only, for a BOT Creator desk staging something a friend can import later.
 
-PROOF's "evidence before a victory lap" has a cousin in the curated **verification-before-completion** skill: run the check, then claim done. PROOF tells a human which four fields to read. The skill tells an agent to show the command output. They stack. Neither one replaces [Verification](verification-workflow.md) inside a coding session.
+PROOF's "evidence before a victory lap" has a cousin in the curated **verification-before-completion** skill: run the check, then claim done. PROOF tells a human which four fields to read. The skill tells an agent to show the command output. They stack. Neither one replaces [Verification](37-verification-workflow.md) inside a coding session.
 
 ---
 
@@ -102,7 +105,7 @@ The compare page summarizes these. Both URLs were checked for this update. No fu
 | [Exploring Super-agent Design (English translation)](https://offloop.org/learn/exploring-deepseek-super-agent-design) | Full English translation of the DeepSeek Harness team's architecture essay. |
 | [Super-agent 设计探索 (Chinese reprint)](https://blog.eimoon.com/p/deepseek-super-agent-design/) | Chinese reprint of the same essay. |
 
-[Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) is this repo's reading of that essay against the Soft CoS pages. The essay stays under its authors' terms.
+[Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md) is this repo's reading of that essay against the Soft CoS pages. The essay stays under its authors' terms.
 
 ---
 
@@ -111,7 +114,7 @@ The compare page summarizes these. Both URLs were checked for this update. No fu
 - **Terry Chan**, [Terrium](https://github.com/terry42hk/terrium). The fleet pages in this update are practice notes in the same repo, under [CC-BY-SA 4.0](../LICENSE). Attribute Terry Chan / Terrium when you share or adapt them, and keep the same license on the adaptation.
 - **Anthropic**, for Claude Code and the public docs linked above. The twelve-lesson course is this repo's explanation of that product. It is not an official manual, and this update does not change the lessons.
 - **Tiago Forte**, for PARA, linked above. IPARAG in this repo is a public skeleton built on that method, not a Forte Labs product.
-- **DeepSeek Harness team**, for the Super-agent essay linked above. Yujia Qiao wrote it with the team. The English page is a translation and the Chinese page is a reprint. [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md) is this repo's comparison, under the same CC-BY-SA terms as the other fleet pages.
+- **DeepSeek Harness team**, for the Super-agent essay linked above. Yujia Qiao wrote it with the team. The English page is a translation and the Chinese page is a reprint. [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md) is this repo's comparison, under the same CC-BY-SA terms as the other fleet pages.
 - **The authors already named** in [Curated Skills](../skills/curated.md) and [Tools](../tools/README.md): 李继刚, Anthropic's published skill patterns, the Humanizer lineage (nicekate, blader, hardikpandya), Paul Bakaus, and the tool authors in the tools tables. Their entries stay the source of those recommendations.
 - **Friends running desks**, including on Grok Bot. These pages teach the routing and board pattern in public. Product behavior stays in each product's own docs. The friend-starter note describes what a folder presents on arrival.
 
@@ -121,10 +124,11 @@ Private vault notes, live rosters, and unpublished personal setup packs are not 
 
 ## Related
 
-- [How to Talk to AI](talking-to-ai.md)
-- [How to Learn AI](learning-ai.md)
-- [Principles](principles.md)
-- [Fleet Architecture](architecture.md)
-- [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
+- [How to Talk to AI](01-talking-to-ai.md)
+- [How to Learn AI](02-learning-ai.md)
+- [Why a Markdown Vault](03-why-a-markdown-vault.md)
+- [Principles](11-principles.md)
+- [Fleet Architecture](10-architecture.md)
+- [Super-agent vs Soft CoS](20-super-agent-vs-soft-cos.md)
 - [Curated Skills](../skills/curated.md)
 - [Tools](../tools/README.md)

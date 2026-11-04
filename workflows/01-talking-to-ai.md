@@ -1,4 +1,6 @@
-# How to Talk to AI
+# 01. How to Talk to AI
+
+Beginner path, first note. Next is [how to learn AI](02-learning-ai.md).
 
 A page for the first time you ask an agent to do work.
 
@@ -66,11 +68,11 @@ That message already says:
 - What not to touch: pricing, publishing, and the lines you already wrote.
 - How we know it worked: a clerk who was not in this chat can follow the three sections. A missing number means stop.
 
-`your-vault/` is a placeholder, as in the [vault skeleton](mac-first-obsidian-iparag.md). Public examples stop there.
+`your-vault/` is a placeholder, as in the [vault skeleton](14-mac-first-obsidian-iparag.md). Public examples stop there.
 
 Name the page, the note, and the screen that already hold the answer, so the agent does not invent them.
 
-[Soft Chief of Staff](soft-cos.md) is the same kind of note, for when several agents split the work: who it is for, what finished looks like, and what to leave alone.
+[Soft Chief of Staff](12-soft-cos.md) is the same kind of note, for when several agents split the work: who it is for, what finished looks like, and what to leave alone.
 
 "Help me with refunds" names a topic. The shape of the reply, the finish, and the files that must stay put are still open, so the agent picks them.
 
@@ -93,7 +95,7 @@ Say the thing you expect to open.
 
 Say when you want the answer in the reply. A helpful agent will otherwise create a file you did not ask for.
 
-Something that has to survive the conversation belongs in a file. [File-driven workflow](file-driven-workflow.md) is the longer version: the chat is where you talk, and the file is where the conclusion stays.
+Something that has to survive the conversation belongs in a file. [Why a Markdown vault](03-why-a-markdown-vault.md) is why that file is worth keeping, and when the reply can stay in the chat. [File-driven workflow](35-file-driven-workflow.md) is the longer version for a coding session: the chat is where you talk, and the file is where the conclusion stays.
 
 Before the agent starts, name two things: what you will open, and what you will check. If either one is hard to name, the job is still a wish. Narrow it until both are obvious.
 
@@ -107,11 +109,11 @@ Leave a decision you already made. "Leave this note as written" keeps your sente
 
 If a fact is missing, the message says to stop and name the gap. That pause is how a guess stays out of the file.
 
-Anything you did not name needs its own yes, in a second message. [Soft CoS](soft-cos.md) gives those two messages two owners when more than one agent is around. On your own, you still send two messages.
+Anything you did not name needs its own yes, in a second message. [Soft CoS](12-soft-cos.md) gives those two messages two owners when more than one agent is around. On your own, you still send two messages.
 
 Keep the list short by splitting two kinds of lines:
 
-- **Every job.** A few lines live with the project. In this repo that is [CLAUDE.md rules](claude-md-rules.md) and the [principles](principles.md): human notes stay as written, public pages stay public, and a finish points at something you can open.
+- **Every job.** A few lines live with the project. In this repo that is [CLAUDE.md rules](30-claude-md-rules.md) and the [principles](11-principles.md): human notes stay as written, public pages stay public, and a finish points at something you can open.
 - **This job.** The lines in this message. They name the window, the exception, the screen, the file.
 
 ---
@@ -122,7 +124,7 @@ Keep the list short by splitting two kinds of lines:
 
 What you left alone is part of finished. A refund note that also rewrites pricing did not finish.
 
-A job that misses one line is still in progress. For each line, the reply says where you can look. [Verification](verification-workflow.md) is you actually looking. "Saved" waits until you open the file.
+A job that misses one line is still in progress. For each line, the reply says where you can look. [Verification](37-verification-workflow.md) is you actually looking. "Saved" waits until you open the file.
 
 ---
 
@@ -139,7 +141,7 @@ When you need the ending tomorrow, or someone else does, ask for a short recap:
 
 You can ask in the same message: "When you finish, tell me what the job was, what finished looked like, where to look, and what you left alone."
 
-A [fleet board](fleet-board-empty-wake-proof.md) writes that recap under four names: task, done-when, evidence, and don't. Together they are called PROOF. Ask for the recap in the words above. The names can wait until you have a board. A missing line means it is still open. The four questions work in a single chat, before any fleet exists.
+A [fleet board](13-fleet-board-empty-wake-proof.md) writes that recap under four names: task, done-when, evidence, and don't. Together they are called PROOF. Ask for the recap in the words above. The names can wait until you have a board. A missing line means it is still open. The four questions work in a single chat, before any fleet exists.
 
 ---
 
@@ -195,7 +197,7 @@ After:
 >
 > Don't outline a course. Don't create a second file.
 
-That third message is the start of [How to learn AI](learning-ai.md). The job comes first. The note comes out of the job.
+That third message is the start of [How to learn AI](02-learning-ai.md). The job comes first. The note comes out of the job.
 
 ---
 
@@ -235,17 +237,18 @@ Say these in a normal sentence. Each one fails if you never said what you want b
 
 One sentence of work. Finding the sources is one message. The page that uses those sources is the next message.
 
-[Principles](principles.md) put the same limit on a fleet: one bot, one job. In a single chat, you pick the job. Tomorrow you should be able to point at the file.
+[Principles](11-principles.md) put the same limit on a fleet: one bot, one job. In a single chat, you pick the job. Tomorrow you should be able to point at the file.
 
 ---
 
 ## Related
 
-- [How to Learn AI](learning-ai.md)
-- [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
-- [Principles](principles.md)
-- [Soft Chief of Staff](soft-cos.md)
-- [File-Driven Workflow](file-driven-workflow.md)
-- [Verification](verification-workflow.md)
-- [Mac-first vault](mac-first-obsidian-iparag.md)
-- [Resources and credits](resources.md)
+- [How to Learn AI](02-learning-ai.md)
+- [Why a Markdown Vault](03-why-a-markdown-vault.md)
+- [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md)
+- [Principles](11-principles.md)
+- [Soft Chief of Staff](12-soft-cos.md)
+- [File-Driven Workflow](35-file-driven-workflow.md)
+- [Verification](37-verification-workflow.md)
+- [Mac-first vault](14-mac-first-obsidian-iparag.md)
+- [Resources and credits](15-resources.md)

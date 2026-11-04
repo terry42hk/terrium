@@ -1,10 +1,12 @@
-# Mac-first Vault — a Public IPARAG Skeleton
+# 14. Mac-first Vault — a Public IPARAG Skeleton
+
+Fleet path. Next is [resources and credits](15-resources.md).
 
 A folder skeleton friends can copy. It shows the roles. It does not describe anyone's real vault, machine, or sync account.
 
-IPARAG here means **Inbox, Projects, Area, Resources, Archives, Knowledge**. PARA (Projects, Areas, Resources, Archives) is Tiago Forte's method; credit is in [Resources](resources.md). This skeleton adds an Inbox, uses Area for PARA's ongoing responsibilities, and keeps Knowledge for notes that should outlive a project. Daily sits beside the six folders as the log.
+IPARAG here means **Inbox, Projects, Area, Resources, Archives, Knowledge**. PARA (Projects, Areas, Resources, Archives) is Tiago Forte's method; credit is in [Resources](15-resources.md). This skeleton adds an Inbox, uses Area for PARA's ongoing responsibilities, and keeps Knowledge for notes that should outlive a project. Daily sits beside the six folders as the log.
 
-Obsidian is a natural app for this, and any editor that reads a folder works. Pair it with [Cross-File Sync](cross-file-sync.md) when a project grows past a handful of notes.
+Obsidian is a natural app for this, and any editor that reads a folder works. Pair it with [Cross-File Sync](34-cross-file-sync.md) when a project grows past a handful of notes.
 
 ---
 
@@ -49,9 +51,9 @@ your-vault/
 
 A note has one home. A map of content in Knowledge can link to a project. The project file remains the file you edit for that effort.
 
-Agents follow the same map. A desk files a capture in Inbox or appends to the project it was given. It does not invent a new top-level folder, and it does not rewrite a human's note while filing. The checklist is [Principles](principles.md).
+Agents follow the same map. A desk files a capture in Inbox or appends to the project it was given. It does not invent a new top-level folder, and it does not rewrite a human's note while filing. The checklist is [Principles](11-principles.md).
 
-A bookmark or a clip is an Inbox capture until it has a home. [How to learn AI](learning-ai.md) is that habit: keep a line in your own words, and let an agent suggest the folder.
+A bookmark or a clip is an Inbox capture until it has a home. [How to learn AI](02-learning-ai.md) is that habit: keep a line in your own words, and let an agent suggest the folder.
 
 ---
 
@@ -67,7 +69,7 @@ your-vault/
       README.md
 ```
 
-`board.md` uses the three verbs and PROOF, as in [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md). The project's `README.md` is a map: which desks exist, and which file is the board.
+`board.md` uses the three verbs and PROOF, as in [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md). The project's `README.md` is a map: which desks exist, and which file is the board.
 
 Knowledge can hold a short evergreen page such as "how routing works." It links to the project. It does not accumulate start/finish/block rows. Those rows go stale, and a knowledge note full of stale rows teaches the wrong lesson.
 
@@ -115,9 +117,10 @@ If you are packaging a desk for a friend rather than a whole vault, use the shor
 
 ## Related
 
-- [How to Learn AI](learning-ai.md)
-- [Principles](principles.md)
-- [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
-- [Cross-File Sync](cross-file-sync.md)
+- [How to Learn AI](02-learning-ai.md)
+- [Why a Markdown Vault](03-why-a-markdown-vault.md)
+- [Principles](11-principles.md)
+- [Fleet board, empty wake, PROOF](13-fleet-board-empty-wake-proof.md)
+- [Cross-File Sync](34-cross-file-sync.md)
 - [Friend starter](../tools/friend-starter.md)
-- [Resources and credits](resources.md)
+- [Resources and credits](15-resources.md)

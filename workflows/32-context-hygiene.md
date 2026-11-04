@@ -1,4 +1,4 @@
-# Context Hygiene — Signal Over Noise
+# 32. Context Hygiene — Signal Over Noise
 
 The context window is a budget, not a warehouse. Every token of irrelevant context dilutes Claude's attention on what matters. I've watched sessions degrade from sharp and focused to vague and confused — not because Claude got dumber, but because the context filled up with noise.
 

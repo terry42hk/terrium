@@ -116,7 +116,7 @@ Claude sounds confident whether it's right or wrong -- you can't tell from the t
 ---
 
 **Deep Dive:** [Non-Tech Verification -- six practical methods](extended/non-tech-verification.md) | [Writer-Reviewer Separation](extended/writer-reviewer-separation.md)
-**Workflow:** [Verification Workflow](../workflows/verification-workflow.md)
+**Workflow:** [Verification Workflow](../workflows/37-verification-workflow.md)
 
 ---
 

@@ -175,7 +175,7 @@ Imagine Claude's memory as a physical desk. Everything Claude needs to work with
 ---
 
 **Deep Dive:** [Lost in the Middle (2026) -- largely solved, still matters](extended/lost-in-the-middle.md)
-**Workflow:** [Context Hygiene](../workflows/context-hygiene.md)
+**Workflow:** [Context Hygiene](../workflows/32-context-hygiene.md)
 
 ---
 

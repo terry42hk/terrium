@@ -1,4 +1,4 @@
-# Hook Patterns — Deterministic Automation
+# 31. Hook Patterns — Deterministic Automation
 
 Hooks sit between Permission (hardest control) and CLAUDE.md (soft, advisory) in the control stack. The key property: they execute EVERY time, unconditionally. Claude doesn't decide whether to run them. Claude doesn't even know they exist. They just fire.
 
