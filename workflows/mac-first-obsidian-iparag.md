@@ -116,6 +116,7 @@ If you are packaging a desk for a friend rather than a whole vault, use the shor
 ## Related
 
 - [How to Learn AI](learning-ai.md)
+- [Why a Markdown Vault](why-a-markdown-vault.md)
 - [Principles](principles.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
 - [Cross-File Sync](cross-file-sync.md)

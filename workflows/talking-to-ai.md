@@ -93,7 +93,7 @@ Say the thing you expect to open.
 
 Say when you want the answer in the reply. A helpful agent will otherwise create a file you did not ask for.
 
-Something that has to survive the conversation belongs in a file. [File-driven workflow](file-driven-workflow.md) is the longer version: the chat is where you talk, and the file is where the conclusion stays.
+Something that has to survive the conversation belongs in a file. [Why a Markdown vault](why-a-markdown-vault.md) is why that file is worth keeping, and when the reply can stay in the chat. [File-driven workflow](file-driven-workflow.md) is the longer version for a coding session: the chat is where you talk, and the file is where the conclusion stays.
 
 Before the agent starts, name two things: what you will open, and what you will check. If either one is hard to name, the job is still a wish. Narrow it until both are obvious.
 
@@ -242,6 +242,7 @@ One sentence of work. Finding the sources is one message. The page that uses tho
 ## Related
 
 - [How to Learn AI](learning-ai.md)
+- [Why a Markdown Vault](why-a-markdown-vault.md)
 - [Fleet board, empty wake, PROOF](fleet-board-empty-wake-proof.md)
 - [Principles](principles.md)
 - [Soft Chief of Staff](soft-cos.md)

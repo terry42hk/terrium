@@ -19,10 +19,11 @@ By [Terry Chan](https://github.com/terry42hk)
 
 ### New to asking an agent
 
-Two short pages. They assume an agent is open and you have something you want done. The course and the fleet come after.
+Three short pages. They assume an agent is open and you have something you want done. The course and the fleet come after.
 
 1. [How to talk to AI](workflows/talking-to-ai.md) -- what you want, what finished looks like, what to leave alone, and how you know it worked
 2. [How to learn AI](workflows/learning-ai.md) -- a real pain first, then the page for the wall you hit, then a markdown vault
+3. [Why a Markdown vault](workflows/why-a-markdown-vault.md) -- chat is short-term memory; the folder lasts, searches, and travels to the next model
 
 ### Claude Code, the core
 
@@ -74,7 +75,7 @@ Plus 7 [extended discussions](claude-code-concepts/extended/) that go deeper on 
 
 ### [Workflows](workflows/) -- newcomer pages, Claude Code practice, and a fleet foundation
 
-Two beginner pages: [how to talk to an agent](workflows/talking-to-ai.md) and [how to learn by shipping](workflows/learning-ai.md).
+Three beginner pages: [how to talk to an agent](workflows/talking-to-ai.md), [how to learn by shipping](workflows/learning-ai.md), and [why a Markdown vault is the memory](workflows/why-a-markdown-vault.md).
 
 Nine guides from Claude Code daily practice: CLAUDE.md rules, hooks, context hygiene, context window survival, cross-file sync, file-driven work, subagent orchestration, verification, and mobile via Telegram.
 
@@ -92,6 +93,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
+- **2026/11/05** -- Added [Why a Markdown vault](workflows/why-a-markdown-vault.md). Chat is the short-term memory. A folder of Markdown files is the memory that lasts, that you can search, and that the next model can read. The cost is the habit of clipping a note and giving it a home. The page includes when the chat is still enough, and how a vault goes stale, noisy, or private on a public remote.
 - **2026/11/05** -- Rewrote the two beginner pages in everyday language. [How to talk to AI](workflows/talking-to-ai.md) asks for what you want, what finished looks like, what not to touch, and how you know it worked, and shows the before and after as chat. Those four questions are a lightweight harness: constraints and checkpoints, so the same job lands in the same shape. [How to learn AI](workflows/learning-ai.md) matches that voice. The course and the fleet pages stay as they were.
 - **2026/11/05** -- Added two beginner workflow pages: [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md). A work order with a deliverable and a done-when, and a practice-first way to grow a markdown vault. The course and the fleet pages stay as they were.
 - **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
@@ -105,7 +107,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 Four readers, one repo:
 
-- **Newcomers** with an agent open and a job in mind. Start with [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md).
+- **Newcomers** with an agent open and a job in mind. Start with [How to talk to AI](workflows/talking-to-ai.md), [How to learn AI](workflows/learning-ai.md), and [Why a Markdown vault](workflows/why-a-markdown-vault.md).
 - **Claude Code users** learning the tool, or sharpening the mental models behind it. Start with the course.
 - **Friends running a fleet** -- Grok Bot or any set of one-job desks -- who want the routing rules and the board in public, without a tour of a private vault.
 - **People writing public content** about these workflows. The pages are written to be linked, quoted, and adapted.

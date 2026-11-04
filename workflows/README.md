@@ -12,12 +12,13 @@ Practical patterns from daily practice. Start with the [newcomer pages](#newcome
 
 ## Newcomers
 
-Two pages. Read them in order if you are new to asking an agent for work.
+Three pages. Read the first two in order if you are new to asking an agent for work. Read the third when a chat has already forgotten something you meant to keep.
 
 | Guide | What it covers |
 |-------|---------------|
 | [How to Talk to AI](talking-to-ai.md) | What you want, what finished looks like, what not to touch, and how you know it worked. |
 | [How to Learn AI](learning-ai.md) | A real pain first, then the page that names the wall, then a markdown vault. |
+| [Why a Markdown Vault](why-a-markdown-vault.md) | Chat is short-term memory. The folder lasts, searches, and moves with you. The cost is clip, then organize. |
 
 ## Fleet foundation
 
@@ -62,4 +63,4 @@ These workflows share a common thread: **deterministic discipline around a proba
 
 The fleet pages share that thread at a different scale. A group of desks is brilliant and noisy. One job per desk, a board with three verbs, and silence when nothing changed are how the noise stays out of tomorrow's session.
 
-The newcomer pages use the same thread at the size of one ask. Say what finished looks like, and how you will know. A vault gives tomorrow's session the note the chat will not keep.
+The newcomer pages use the same thread at the size of one ask. Say what finished looks like, and how you will know. A vault gives tomorrow's session the note the chat will not keep. [Why a Markdown vault](why-a-markdown-vault.md) is that split: what lasts, what changes, and when the chat is still enough.

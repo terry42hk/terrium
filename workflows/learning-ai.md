@@ -36,7 +36,7 @@ Do the job. Notice what stopped you. Then read the page that names that stop. Th
 
 | You noticed | Read this |
 |:---|:---|
-| The chat forgot a decision | [File-driven workflow](file-driven-workflow.md) |
+| The chat forgot a decision | [Why a Markdown vault](why-a-markdown-vault.md), then [File-driven workflow](file-driven-workflow.md) if the job is a coding session |
 | "Done" might be a claim | [How to talk to AI](talking-to-ai.md), then the finish note on the [fleet board](fleet-board-empty-wake-proof.md) and [Verification](verification-workflow.md) |
 | Notes exist and you cannot find them together | [Mac-first vault](mac-first-obsidian-iparag.md) and [Cross-file sync](cross-file-sync.md) |
 | Two helpers rewrote the same note | [Soft Chief of Staff](soft-cos.md) and [Principles](principles.md) |
@@ -50,7 +50,7 @@ The twelve lessons stay the curriculum for Claude Code. Open them when that tool
 
 When something you read changes what you will do tomorrow, keep it.
 
-Keep it in a Markdown vault. Obsidian is a comfortable reader for that folder. Any editor that opens Markdown is enough. Folder roles are the [Mac-first IPARAG skeleton](mac-first-obsidian-iparag.md): Inbox for the capture, Projects for the thing you are finishing, Knowledge for the note you would still want next month. PARA credit for the four classic roles is in [Resources](resources.md).
+Keep it in a Markdown vault. [Why a Markdown vault](why-a-markdown-vault.md) is why that folder is the memory, what it changes, and when the chat is still enough. Obsidian is a comfortable reader for that folder. Any editor that opens Markdown is enough. Folder roles are the [Mac-first IPARAG skeleton](mac-first-obsidian-iparag.md): Inbox for the capture, Projects for the thing you are finishing, Knowledge for the note you would still want next month. PARA credit for the four classic roles is in [Resources](resources.md).
 
 That vault, plus an agent with a small filing job, is enough.
 
@@ -95,6 +95,7 @@ Repeat the week. The course, the fleet pages, and a larger vault are what the re
 ## Related
 
 - [How to Talk to AI](talking-to-ai.md)
+- [Why a Markdown Vault](why-a-markdown-vault.md)
 - [Mac-first vault](mac-first-obsidian-iparag.md)
 - [Cross-File Sync](cross-file-sync.md)
 - [File-Driven Workflow](file-driven-workflow.md)

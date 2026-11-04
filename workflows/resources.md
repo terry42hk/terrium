@@ -20,12 +20,13 @@ Honest takes match the style of [Curated Skills](../skills/curated.md) and [Tool
 
 ## In this repo
 
-Start with the two beginner pages if you are about to ask an agent for work. Start with the fleet set if you are here for many desks. Start with the course if you are here to learn Claude Code.
+Start with the beginner pages if you are about to ask an agent for work. Start with the fleet set if you are here for many desks. Start with the course if you are here to learn Claude Code.
 
 | Read | Why |
 |:---|:---|
 | [How to talk to AI](talking-to-ai.md) | What you want, what finished looks like, what not to touch, and how you know it worked. |
 | [How to learn AI](learning-ai.md) | A real pain first, then the page that names the wall. A vault for what you keep. |
+| [Why a Markdown vault](why-a-markdown-vault.md) | Chat is short-term. The folder is the memory you can search, correct, and hand to the next model. |
 | [Fleet Architecture](architecture.md) | The routing picture and the board loop, in one place. |
 | [Principles](principles.md) | The checklist to follow when you copy the pattern. |
 | [Soft Chief of Staff](soft-cos.md) | One job, anti-jobs, one-line redirect, one GM door. |
@@ -123,6 +124,7 @@ Private vault notes, live rosters, and unpublished personal setup packs are not 
 
 - [How to Talk to AI](talking-to-ai.md)
 - [How to Learn AI](learning-ai.md)
+- [Why a Markdown Vault](why-a-markdown-vault.md)
 - [Principles](principles.md)
 - [Fleet Architecture](architecture.md)
 - [Super-agent vs Soft CoS](super-agent-vs-soft-cos.md)
