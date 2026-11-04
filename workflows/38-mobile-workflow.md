@@ -1,4 +1,4 @@
-# Mobile Workflow — Claude Code via Telegram
+# 38. Mobile Workflow — Claude Code via Telegram
 
 Claude Code is a terminal application. It runs on your desktop or server, reads your filesystem, executes commands. That's powerful — but it also means you can't use it from your phone. Unless you bridge the gap.
 
@@ -156,7 +156,7 @@ Send a simple message from your phone: "What directory are you in?" Claude shoul
 
 ### Pair with a PostCompact hook
 
-Long mobile sessions burn through context fast (lots of short back-and-forth messages). A PostCompact hook (see [Hook Patterns](hooks-patterns.md)) ensures Claude recovers critical context after compression. Without it, Claude forgets what you were working on after a compaction — and you're typing on a phone, so re-explaining is painful.
+Long mobile sessions burn through context fast (lots of short back-and-forth messages). A PostCompact hook (see [Hook Patterns](31-hooks-patterns.md)) ensures Claude recovers critical context after compression. Without it, Claude forgets what you were working on after a compaction — and you're typing on a phone, so re-explaining is painful.
 
 ### Use skills designed for quick execution
 

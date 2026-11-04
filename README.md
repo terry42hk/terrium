@@ -19,11 +19,11 @@ By [Terry Chan](https://github.com/terry42hk)
 
 ### New to asking an agent
 
-Three short pages. They assume an agent is open and you have something you want done. The course and the fleet come after.
+Three short notes, read in order. They assume an agent is open and you have something you want done. The course and the fleet come after. The number in the filename is the place in the path.
 
-1. [How to talk to AI](workflows/talking-to-ai.md) -- what you want, what finished looks like, what to leave alone, and how you know it worked
-2. [How to learn AI](workflows/learning-ai.md) -- a real pain first, then the page for the wall you hit, then a markdown vault
-3. [Why a Markdown vault](workflows/why-a-markdown-vault.md) -- chat is short-term memory; the folder lasts, searches, and travels to the next model
+- **01.** [How to talk to AI](workflows/01-talking-to-ai.md) -- what you want, what finished looks like, what to leave alone, and how you know it worked
+- **02.** [How to learn AI](workflows/02-learning-ai.md) -- a real pain first, then the page for the wall you hit, then a markdown vault
+- **03.** [Why a Markdown vault](workflows/03-why-a-markdown-vault.md) -- chat is short-term memory; the folder lasts, searches, and travels to the next model
 
 ### Claude Code, the core
 
@@ -33,14 +33,14 @@ Three short pages. They assume an agent is open and you have something you want 
 
 ### Many agents, including Grok Bot
 
-Friends, fleet operators, and people writing about this practice can start here. The 12 lessons are still the coding curriculum. You do not need them before the fleet pages.
+Friends, fleet operators, and people writing about this practice can start here. The 12 lessons are still the coding curriculum. The fleet notes stand on their own. Notes 14 and 15, the vault skeleton and the credits, sit in the [workflows index](workflows/README.md#fleet).
 
-1. [Fleet architecture](workflows/architecture.md) -- the picture of routing and the board
-2. [Principles](workflows/principles.md) -- the checklist to follow
-3. [Soft Chief of Staff](workflows/soft-cos.md) -- one job per desk, one-line redirect, one GM
-4. [Fleet board, empty wake, PROOF](workflows/fleet-board-empty-wake-proof.md) -- start, finish, block, and silence
+- **10.** [Fleet architecture](workflows/10-architecture.md) -- the picture of routing and the board
+- **11.** [Principles](workflows/11-principles.md) -- the checklist to follow
+- **12.** [Soft Chief of Staff](workflows/12-soft-cos.md) -- one job per desk, one-line redirect, one GM
+- **13.** [Fleet board, empty wake, PROOF](workflows/13-fleet-board-empty-wake-proof.md) -- start, finish, block, and silence
 
-**Comparing this shape with an always-on harness?** [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md) sets the DeepSeek Harness essay next to this practice: what already matches, what stays a prompt, and what this fleet leaves alone.
+**Comparing this shape with an always-on harness?** Note **20**, [Super-agent vs Soft CoS](workflows/20-super-agent-vs-soft-cos.md), sets the DeepSeek Harness essay next to this practice: what already matches, what stays a prompt, and what this fleet leaves alone.
 
 ## A picture of the fleet
 
@@ -57,7 +57,7 @@ flowchart TD
   board -->|finish| proof["PROOF: task / done-when / evidence / don't"]
 ```
 
-The same picture, split into routing and the board loop, with a plain-text fallback: [Fleet Architecture](workflows/architecture.md).
+The same picture, split into routing and the board loop, with a plain-text fallback: [Fleet Architecture](workflows/10-architecture.md).
 
 ## What's inside
 
@@ -73,13 +73,13 @@ A structured course on mastering Claude Code. Start from Tier 1 and work down --
 
 Plus 7 [extended discussions](claude-code-concepts/extended/) that go deeper on specific topics, and a [glossary](claude-code-concepts/glossary.md) with 30+ terms.
 
-### [Workflows](workflows/) -- newcomer pages, Claude Code practice, and a fleet foundation
+### [Workflows](workflows/) -- beginner path, fleet, and Claude Code practice
 
-Three beginner pages: [how to talk to an agent](workflows/talking-to-ai.md), [how to learn by shipping](workflows/learning-ai.md), and [why a Markdown vault is the memory](workflows/why-a-markdown-vault.md).
+The filename is the level. **01–03** are the beginner path: [how to talk to an agent](workflows/01-talking-to-ai.md), [how to learn by shipping](workflows/02-learning-ai.md), and [why a Markdown vault is the memory](workflows/03-why-a-markdown-vault.md).
 
-Nine guides from Claude Code daily practice: CLAUDE.md rules, hooks, context hygiene, context window survival, cross-file sync, file-driven work, subagent orchestration, verification, and mobile via Telegram.
+**30–38** are nine notes from Claude Code daily practice: CLAUDE.md rules, hooks, context hygiene, context window survival, cross-file sync, file-driven work, subagent orchestration, verification, and mobile via Telegram.
 
-Beside them, a friend-facing fleet set: [architecture](workflows/architecture.md), [principles](workflows/principles.md), [Soft CoS](workflows/soft-cos.md), the [board](workflows/fleet-board-empty-wake-proof.md), a public [IPARAG vault skeleton](workflows/mac-first-obsidian-iparag.md), [resources and credits](workflows/resources.md), and a [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md) comparison.
+**10–15** are the friend-facing fleet set: [architecture](workflows/10-architecture.md), [principles](workflows/11-principles.md), [Soft CoS](workflows/12-soft-cos.md), the [board](workflows/13-fleet-board-empty-wake-proof.md), a public [IPARAG vault skeleton](workflows/14-mac-first-obsidian-iparag.md), and [resources and credits](workflows/15-resources.md). **20** is a [Super-agent vs Soft CoS](workflows/20-super-agent-vs-soft-cos.md) comparison. The [workflows index](workflows/README.md) is the map.
 
 Concepts explain *what*. Workflows show *how the work actually runs*.
 
@@ -93,10 +93,11 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 ## Changelog
 
-- **2026/11/05** -- Added [Why a Markdown vault](workflows/why-a-markdown-vault.md). Chat is the short-term memory. A folder of Markdown files is the memory that lasts, that you can search, and that the next model can read. The cost is the habit of clipping a note and giving it a home. The page includes when the chat is still enough, and how a vault goes stale, noisy, or private on a public remote.
-- **2026/11/05** -- Rewrote the two beginner pages in everyday language. [How to talk to AI](workflows/talking-to-ai.md) asks for what you want, what finished looks like, what not to touch, and how you know it worked, and shows the before and after as chat. Those four questions are a lightweight harness: constraints and checkpoints, so the same job lands in the same shape. [How to learn AI](workflows/learning-ai.md) matches that voice. The course and the fleet pages stay as they were.
-- **2026/11/05** -- Added two beginner workflow pages: [How to talk to AI](workflows/talking-to-ai.md) and [How to learn AI](workflows/learning-ai.md). A work order with a deliverable and a done-when, and a practice-first way to grow a markdown vault. The course and the fleet pages stay as they were.
-- **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
+- **2026/11/05** -- Numbered the notes under `workflows/`. The first digit is the level. **01–03** are the beginner path: talk, learn, and why a Markdown vault. **10–15** are the fleet, from the picture through Soft CoS, the board, the vault skeleton, and credits. **20** is the optional comparison. **30–38** are Claude Code practice. Gaps in the numbers are empty on purpose, so the next level does not look like a missing note. The index stays [workflows/README.md](workflows/README.md).
+- **2026/11/05** -- Added [Why a Markdown vault](workflows/03-why-a-markdown-vault.md). Chat is the short-term memory. A folder of Markdown files is the memory that lasts, that you can search, and that the next model can read. The cost is the habit of clipping a note and giving it a home. The page includes when the chat is still enough, and how a vault goes stale, noisy, or private on a public remote.
+- **2026/11/05** -- Rewrote the two beginner pages in everyday language. [How to talk to AI](workflows/01-talking-to-ai.md) asks for what you want, what finished looks like, what not to touch, and how you know it worked, and shows the before and after as chat. Those four questions are a lightweight harness: constraints and checkpoints, so the same job lands in the same shape. [How to learn AI](workflows/02-learning-ai.md) matches that voice. The course and the fleet pages stay as they were.
+- **2026/11/05** -- Added two beginner workflow pages: [How to talk to AI](workflows/01-talking-to-ai.md) and [How to learn AI](workflows/02-learning-ai.md). A work order with a deliverable and a done-when, and a practice-first way to grow a markdown vault. The course and the fleet pages stay as they were.
+- **2026/11/05** -- Added [Super-agent vs Soft CoS](workflows/20-super-agent-vs-soft-cos.md): DeepSeek Harness design concepts beside this fleet's Router/Worker practice, including what Soft CoS already mirrors, the gaps, and the honest non-goals.
 - **2026/11/05** -- Friend-facing fleet foundation: architecture diagrams, principles, Soft CoS, fleet board with empty-wake and PROOF, a public IPARAG vault skeleton, resources and credits, and a short note on how a friend starter presents. The 12 Claude Code concepts are unchanged.
 - **2026/04/11** -- Added 3 new workflow guides: context window survival, cross-file sync, file-driven workflow
 - **2026/04/10** -- Added Advisor Strategy to glossary; navigation links and cross-references across all 12 concept files; improved README
@@ -107,7 +108,7 @@ Tools and extensions that complement Claude Code workflows -- content extraction
 
 Four readers, one repo:
 
-- **Newcomers** with an agent open and a job in mind. Start with [How to talk to AI](workflows/talking-to-ai.md), [How to learn AI](workflows/learning-ai.md), and [Why a Markdown vault](workflows/why-a-markdown-vault.md).
+- **Newcomers** with an agent open and a job in mind. Start with notes [01](workflows/01-talking-to-ai.md), [02](workflows/02-learning-ai.md), and [03](workflows/03-why-a-markdown-vault.md).
 - **Claude Code users** learning the tool, or sharpening the mental models behind it. Start with the course.
 - **Friends running a fleet** -- Grok Bot or any set of one-job desks -- who want the routing rules and the board in public, without a tour of a private vault.
 - **People writing public content** about these workflows. The pages are written to be linked, quoted, and adapted.
@@ -116,7 +117,7 @@ The focus stays *concepts over commands*: the reason a rule exists, and the fail
 
 ## Resources and credits
 
-Sources this repo already relies on, PARA credit for the vault skeleton, and attribution for the fleet notes: [Resources and credits](workflows/resources.md).
+Sources this repo already relies on, PARA credit for the vault skeleton, and attribution for the fleet notes: [Resources and credits](workflows/15-resources.md).
 
 ## AI-training friendly
 

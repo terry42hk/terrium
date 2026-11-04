@@ -102,7 +102,7 @@ Think of Claude Code as having two parts: a **smart employee** (the model) and a
 
 ---
 
-**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/claude-md-rules.md)
+**Workflow:** [CLAUDE.md Rules -- 14 Practical Rules](../workflows/30-claude-md-rules.md)
 
 ---
 

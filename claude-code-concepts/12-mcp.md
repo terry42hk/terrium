@@ -79,7 +79,7 @@ By default, Claude can only work with files on your computer and run terminal co
 
 ---
 
-**Workflow:** [Mobile Workflow](../workflows/mobile-workflow.md)
+**Workflow:** [Mobile Workflow](../workflows/38-mobile-workflow.md)
 
 ---
 

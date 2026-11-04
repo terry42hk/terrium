@@ -1,8 +1,10 @@
-# Fleet Board, Empty Wake, and PROOF
+# 13. Fleet Board, Empty Wake, and PROOF
+
+Fleet path, after [Soft CoS](12-soft-cos.md). Next is the [vault skeleton](14-mac-first-obsidian-iparag.md).
 
 Three habits that keep a fleet readable: a shared board with three verbs, silence when a wake has nothing to say, and four fields on every finish.
 
-Routing lives in [Soft Chief of Staff](soft-cos.md). The picture of both together is [Fleet Architecture](architecture.md).
+Routing lives in [Soft Chief of Staff](12-soft-cos.md). The picture of both together is [Fleet Architecture](10-architecture.md).
 
 ---
 
@@ -23,7 +25,7 @@ Routing lives in [Soft Chief of Staff](soft-cos.md). The picture of both togethe
 
 Chat is where the talking happens. The board is where the state lives. A later session, a different desk, or the friend tomorrow can read a markdown file. They cannot reliably read yesterday's chat.
 
-Keep one board for the fleet, in the place the desks already open. A relative path is enough: `board.md` inside the fleet project. The [vault skeleton](mac-first-obsidian-iparag.md) suggests putting it with the project, not in the evergreen knowledge notes.
+Keep one board for the fleet, in the place the desks already open. A relative path is enough: `board.md` inside the fleet project. The [vault skeleton](14-mac-first-obsidian-iparag.md) suggests putting it with the project, not in the evergreen knowledge notes.
 
 This page uses fictional desks. Copy the shape. Leave your real rows in your own vault.
 
@@ -128,7 +130,7 @@ Every finish carries four fields. The names are the contract.
 - finish · Writer · Draft the public routing page
   - task: Draft the friend-facing routing page
   - done-when: The page states one job, the anti-jobs, and the one-line redirect
-  - evidence: workflows/soft-cos.md on the branch
+  - evidence: workflows/12-soft-cos.md on the branch
   - don't: Do not rewrite the twelve Claude Code lessons. Do not name real agent ids.
 ```
 
@@ -138,9 +140,9 @@ Every finish carries four fields. The names are the contract.
 
 **don't** is part of done, not a footnote. A page that exists and also rewrites the course has failed its don't, so it has not finished.
 
-PROOF is how a desk reports. [Verification](verification-workflow.md) is how you check a coding change before you trust it. Use verification on the artifact. Use PROOF so the human knows which four fields to read. Spot-checking PROOF does not replace running the test the evidence points at.
+PROOF is how a desk reports. [Verification](37-verification-workflow.md) is how you check a coding change before you trust it. Use verification on the artifact. Use PROOF so the human knows which four fields to read. Spot-checking PROOF does not replace running the test the evidence points at.
 
-The same four questions show up in everyday words in [How to talk to AI](talking-to-ai.md), including when no board exists yet.
+The same four questions show up in everyday words in [How to talk to AI](01-talking-to-ai.md), including when no board exists yet.
 
 ---
 
@@ -178,9 +180,9 @@ The same rule applies outside the board. In a shared note, an agent adds a secti
 
 ## Related
 
-- [How to Talk to AI](talking-to-ai.md)
-- [Fleet Architecture](architecture.md)
-- [Principles](principles.md)
-- [Soft Chief of Staff](soft-cos.md)
-- [Verification](verification-workflow.md)
-- [File-Driven Workflow](file-driven-workflow.md)
+- [How to Talk to AI](01-talking-to-ai.md)
+- [Fleet Architecture](10-architecture.md)
+- [Principles](11-principles.md)
+- [Soft Chief of Staff](12-soft-cos.md)
+- [Verification](37-verification-workflow.md)
+- [File-Driven Workflow](35-file-driven-workflow.md)

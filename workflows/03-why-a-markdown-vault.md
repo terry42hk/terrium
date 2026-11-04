@@ -1,4 +1,6 @@
-# Why a Markdown Vault
+# 03. Why a Markdown Vault
+
+Beginner path, third note, after [how to learn AI](02-learning-ai.md). It closes that path. The fleet notes start at [the picture of the desks](10-architecture.md) when one chat is no longer the whole setup.
 
 A page for the week a chat forgets a decision you already made.
 
@@ -34,7 +36,7 @@ A conversation works as a temporary desk. You try a sentence, follow a question,
 
 The decision you would hate to re-argue needs a place that is still there when the thread ends.
 
-[How to learn AI](learning-ai.md) starts from a job on your desk and keeps the note that comes out of it. This page is why that note is a file.
+[How to learn AI](02-learning-ai.md) starts from a job on your desk and keeps the note that comes out of it. This page is why that note is a file.
 
 ---
 
@@ -51,7 +53,7 @@ A vault is a folder of plain text files. Obsidian is a comfortable way to read t
 
 Those four rows are the claim. The notes last, you can search them, you can keep earlier versions, and the next tool can read them.
 
-The first two show up on day one: a folder, and a few notes with titles. Earlier versions are the git history, once a note should survive the laptop. [Mac-first vault](mac-first-obsidian-iparag.md) is that pattern in one line. The local folder is the copy you write in, git is the slice you mean to keep, and a remote is what another person reads when the laptop is closed. The current file is already useful before the first commit. Share the remote when there is something you mean other people to read.
+The first two show up on day one: a folder, and a few notes with titles. Earlier versions are the git history, once a note should survive the laptop. [Mac-first vault](14-mac-first-obsidian-iparag.md) is that pattern in one line. The local folder is the copy you write in, git is the slice you mean to keep, and a remote is what another person reads when the laptop is closed. The current file is already useful before the first commit. Share the remote when there is something you mean other people to read.
 
 The file stores the conclusion. A useful note is short:
 
@@ -63,9 +65,9 @@ Unopened goods: 14 days. Opened food: no refund. A clerk can approve one excepti
 Why I kept this: a new chat invented 30 days. This is the line we ship.
 ```
 
-Put it at `your-vault/Projects/shop/refund-window.md` while the shop page is unfinished. `your-vault/` is a placeholder, same as the [vault skeleton](mac-first-obsidian-iparag.md). If you would still want the rule after the page ships, Knowledge is the later home. One home. A link can point at it from anywhere else.
+Put it at `your-vault/Projects/shop/refund-window.md` while the shop page is unfinished. `your-vault/` is a placeholder, same as the [vault skeleton](14-mac-first-obsidian-iparag.md). If you would still want the rule after the page ships, Knowledge is the later home. One home. A link can point at it from anywhere else.
 
-Folder roles live on that skeleton page: Inbox for a capture that has no home yet, Projects for the thing you are finishing, Knowledge for a note that should outlive the project. PARA credit for the four classic roles is in [Resources](resources.md).
+Folder roles live on that skeleton page: Inbox for a capture that has no home yet, Projects for the thing you are finishing, Knowledge for a note that should outlive the project. PARA credit for the four classic roles is in [Resources](15-resources.md).
 
 ---
 
@@ -77,11 +79,11 @@ Three changes show up in ordinary weeks.
 
 **A correction happens once.** Two chats can each invent a different window. Two chats that both read the file can still miss, and the miss is in one place. You fix the file. The next reader, a person or a bot, gets the correction. The month agrees with itself.
 
-**New clips have somewhere to land.** A link about exceptions is useful because the refund note already exists. The agent can suggest putting it next to the refund window, because it can see that note. An empty folder gives the agent nothing to attach a clip to. [How to learn AI](learning-ai.md) is the capture habit that fills the first notes.
+**New clips have somewhere to land.** A link about exceptions is useful because the refund note already exists. The agent can suggest putting it next to the refund window, because it can see that note. An empty folder gives the agent nothing to attach a clip to. [How to learn AI](02-learning-ai.md) is the capture habit that fills the first notes.
 
 The file remembers what you last wrote. When the policy changes, you change the file. A lasting copy of an old rule will keep teaching the old rule. Git helps on the day you change your mind: the history can show that March said 30 days and May says 14. The current file is the one to cite. The history is how you can see that you changed it.
 
-A coding session has a sharper version of the same idea. [File-driven workflow](file-driven-workflow.md) names three files a project keeps so the next session can start. This page is the folder those files live in, together with the notes that are not code.
+A coding session has a sharper version of the same idea. [File-driven workflow](35-file-driven-workflow.md) names three files a project keeps so the next session can start. This page is the folder those files live in, together with the notes that are not code.
 
 ---
 
@@ -93,7 +95,7 @@ That is the part that lasts across months and across products. March's refund wi
 
 A second bot can do a different job on the same file. One reads it to answer a clerk. Another files a clip beside it. They share the note because they share the folder.
 
-If filing clips is worth its own helper, give that helper one sentence, the way [Soft CoS](soft-cos.md) writes a desk: file captures and suggest a folder. Beside it, what that helper leaves alone: rewriting your line, publishing, and starting the project. One chat can do the filing too. The folder is what the next helper inherits.
+If filing clips is worth its own helper, give that helper one sentence, the way [Soft CoS](12-soft-cos.md) writes a desk: file captures and suggest a folder. Beside it, what that helper leaves alone: rewriting your line, publishing, and starting the project. One chat can do the filing too. The folder is what the next helper inherits.
 
 ---
 
@@ -106,7 +108,7 @@ Once the note exists, the useful agent work is clerical.
 - Point at a project you already have.
 - Answer a later question with the path, so you can open the sentence it used.
 
-You decide. [Human notes stay as written](principles.md). The agent appends. Your sentence stays.
+You decide. [Human notes stay as written](11-principles.md). The agent appends. Your sentence stays.
 
 A citation you can use next month is a path:
 
@@ -114,7 +116,7 @@ A citation you can use next month is a path:
 
 "We said so on Tuesday" depends on a thread staying open. The path is a file you, or another bot, can open in June.
 
-Ask for the filing the way [How to talk to AI](talking-to-ai.md) asks for any job:
+Ask for the filing the way [How to talk to AI](01-talking-to-ai.md) asks for any job:
 
 > I dropped a clip in `your-vault/Inbox/exceptions-clip.md`. Suggest a folder and append it under my line. Leave my sentence as I wrote it. Don't publish, and don't make a second copy.
 >
@@ -134,7 +136,7 @@ The vault stays empty until you do two small things.
 
 A clip takes about a minute. Filing takes a few minutes, or one pass by an agent that you then check. The second time you would have retyped the decision, the minute has paid for itself. By the tenth time, the folder is what the new model reads first.
 
-A handful of notes is a real start. A finished cabinet of folders can wait until the handful feels cramped. [How to learn AI](learning-ai.md) calls a week of this enough: one painful job, and a short note when something earns a keep.
+A handful of notes is a real start. A finished cabinet of folders can wait until the handful feels cramped. [How to learn AI](02-learning-ai.md) calls a week of this enough: one painful job, and a short note when something earns a keep.
 
 Keep the conclusion you would want quoted back to you. A transcript of every chat buries that conclusion. A note for every stray sentence buries it the other way. The habit is choosing.
 
@@ -146,7 +148,7 @@ The chat is the right place for a lot of real work.
 
 - You are trying sentences, and this draft can disappear.
 - The answer is a one-time look: what this error means, or a paragraph you will paste somewhere else yourself.
-- You asked for the reply in chat, and tomorrow does not need it. [How to talk to AI](talking-to-ai.md) includes that on purpose: "Reply in chat. Don't make a file."
+- You asked for the reply in chat, and tomorrow does not need it. [How to talk to AI](01-talking-to-ai.md) includes that on purpose: "Reply in chat. Don't make a file."
 - The fact already lives in a file, and this conversation is using it.
 - You are listing options you will drop after you pick one. Keep the pick when you will need the pick again. The rejected options can go with the thread.
 
@@ -158,7 +160,7 @@ Scratch work in the thread keeps the vault small enough to search. The vault is 
 
 ## What goes wrong
 
-**The transcript.** Pasting the whole Tuesday chat into a file feels like a save. In June the window is buried in the attempts. Save the conclusion, the reason you kept it, and the link. One idea, one title, the way [How to learn AI](learning-ai.md) describes a note.
+**The transcript.** Pasting the whole Tuesday chat into a file feels like a save. In June the window is buried in the attempts. Save the conclusion, the reason you kept it, and the link. One idea, one title, the way [How to learn AI](02-learning-ai.md) describes a note.
 
 **Two homes.** The same 14 days live in the project note and again on a knowledge page. You update one. A later agent cites the other. Give the rule one home, and link to it from the second place. The skeleton page says a note has one home.
 
@@ -168,7 +170,7 @@ Scratch work in the thread keeps the vault small enough to search. The vault is 
 
 **A faithful old rule.** The file will keep teaching 30 days after the shop moved to 14, for as long as 30 is what the file says. Change the file when the decision changes. If the folder is in git, the old line stays in the history, and the current file is the one to cite.
 
-**A private note on a public remote.** The local vault can hold the real shop, the real names, and the drafts. The remote gets the slice you mean other people to read. Public examples in this repo stay on `your-vault/` for that reason. The checklist is [Principles](principles.md).
+**A private note on a public remote.** The local vault can hold the real shop, the real names, and the drafts. The remote gets the slice you mean other people to read. Public examples in this repo stay on `your-vault/` for that reason. The checklist is [Principles](11-principles.md).
 
 **Waiting on an app.** The notes are already files. You can begin in the editor you have. A reader with a sidebar can come later. The month of notes is the part that costs more the longer you wait.
 
@@ -192,11 +194,11 @@ That is the impact. Clip what should last, and give it a home. After that, the m
 
 ## Related
 
-- [How to Learn AI](learning-ai.md)
-- [How to Talk to AI](talking-to-ai.md)
-- [Mac-first vault](mac-first-obsidian-iparag.md)
-- [File-Driven Workflow](file-driven-workflow.md)
-- [Soft Chief of Staff](soft-cos.md)
-- [Principles](principles.md)
-- [Cross-File Sync](cross-file-sync.md)
-- [Resources and credits](resources.md)
+- [How to Learn AI](02-learning-ai.md)
+- [How to Talk to AI](01-talking-to-ai.md)
+- [Mac-first vault](14-mac-first-obsidian-iparag.md)
+- [File-Driven Workflow](35-file-driven-workflow.md)
+- [Soft Chief of Staff](12-soft-cos.md)
+- [Principles](11-principles.md)
+- [Cross-File Sync](34-cross-file-sync.md)
+- [Resources and credits](15-resources.md)

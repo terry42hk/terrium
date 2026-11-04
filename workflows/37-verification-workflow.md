@@ -1,4 +1,4 @@
-# Verification — The Highest Leverage Habit
+# 37. Verification — The Highest Leverage Habit
 
 This is the single biggest differentiator between productive Claude Code users and frustrated ones. I've watched people lose hours to bugs that a 30-second verification step would have caught. Three rules form the verification triad:
 

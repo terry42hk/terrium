@@ -1,4 +1,4 @@
-# 14 Rules That Govern Every Session
+# 30. 14 Rules That Govern Every Session
 
 CLAUDE.md is loaded every turn, survives context compression, and sits at the primacy position in the context window. It is the highest-leverage configuration file you have. Most people either leave it empty (generic assistant) or fill it with 500 lines of project documentation (diluted attention). The sweet spot is a tight set of rules that encode your hard-won opinions about how Claude should behave.
 

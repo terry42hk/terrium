@@ -116,7 +116,7 @@ Think of each conversation with Claude as a work session at a desk. When you swi
 ---
 
 **Deep Dive:** [System-level Context Management](extended/system-level-context-management.md)
-**Workflow:** [Context Hygiene](../workflows/context-hygiene.md)
+**Workflow:** [Context Hygiene](../workflows/32-context-hygiene.md)
 
 ---
 

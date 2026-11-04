@@ -1,4 +1,4 @@
-# Subagent Orchestration — Parallel Work Without Chaos
+# 36. Subagent Orchestration — Parallel Work Without Chaos
 
 Subagents are one of the most powerful features in Claude Code — and one of the easiest to misuse. This guide covers how I actually use them, the discipline rules that prevent chaos, and the patterns that work in practice.
 
