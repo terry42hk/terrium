@@ -2,6 +2,8 @@
 
 Tools, extensions, and repos that complement Claude Code workflows. These aren't Claude Code skills — they're standalone tools that I use alongside Claude Code.
 
+One note in this folder is not a tool you install. [Friend starter](friend-starter.md) is the presentation contract for a desk a friend can import: what the first page says, and what a starter folder leaves out. The pack itself is not published here.
+
 ## Content Extraction
 
 | Tool | What it does | Link | My take |
@@ -31,10 +33,16 @@ Tools, extensions, and repos that complement Claude Code workflows. These aren't
 | **context-hub (chub)** | Curated, versioned API documentation registry for LLM agents | [andrewyng/context-hub](https://github.com/andrewyng/context-hub) | Useful concept — pre-packaged API docs that agents can reference instead of hallucinating endpoints. Still early but worth watching. |
 | **BestBlogs.dev** | Curated tech blog aggregator with RSS/API feeds | [bestblogs.dev](https://www.bestblogs.dev/) | Good signal-to-noise ratio for staying current on AI/tech. I use it as an input source for daily digests. |
 
+## Fleet Presentation
+
+| Note | What it is | Link | My take |
+|------|-------------|------|---------|
+| **Friend starter** | How a BOT Creator desk presents an importable starter: one job, anti-jobs, redirect line, empty board, PROOF | [friend-starter.md](friend-starter.md) | Read this before you design a starter for someone else. It is the front page, not a setup pack and not a vendor click-path. |
+
 ## Reference Reading
 
 Articles and threads that shaped how I think about these tools:
 
 - **"I Stopped Collecting Skills. Started Wiring Them Into Loops"** — The key insight: installing skills ≠ using them. Real value comes from scheduling + persistent memory + feedback loops.
 - **"10 Patterns from Claude Code's Source"** — Architecture patterns that explain *why* Claude Code works the way it does.
-- **"My chief of staff, Claude Code"** — 6 parallel subagents with scoped tool access, morning automation reducing 30-45min to single-digit minutes.
+- **"My chief of staff, Claude Code"** — 6 parallel subagents with scoped tool access, morning automation reducing 30-45min to single-digit minutes. Listed by title only; this repo has no URL for it. Useful contrast with [Soft CoS](../workflows/soft-cos.md): that pattern is separate one-job desks and a router, not six subagents in one parent session.
